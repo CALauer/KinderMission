@@ -10,13 +10,13 @@
         <div>
             <h3>For Parents</h3>
             <ul>
-                <li><a href="">Enrollment</a></li>
-                <li><a href="">Our Curriculum</a></li>
-                <li><a href="">Our Mission</a></li>
-                <li><a href="">Our Staff</a></li>
-                <li><a href="">Our Programs</a></li>
-                <li><a href="">KinderMission Foundation</a></li>
-                <li><a href="">Events</a></li>
+                <li><a href="../view/enrollment">Enrollment</a></li>
+                <li><a href="../view/academics">Our Curriculum</a></li>
+                <li><a href="../view/about">Our Mission</a></li>
+                <li><a href="../view/about">Our Staff</a></li>
+                <li><a href="../view/programs">Our Programs</a></li>
+                <li><a href="../view/scholarships">KinderMission Foundation</a></li>
+                <li><a href="../view/events">Events</a></li>
             </ul>
         </div>
         <div>

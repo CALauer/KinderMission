@@ -152,12 +152,84 @@ input[type='email'] {
   margin-bottom: 16px;
   resize: vertical;
 }
+.event-wrapper-sp {
+  display: grid;
+  margin: 0 auto;
+  grid-template-areas: 'image title'
+  'image user'
+  'image date'
+  'image content';
+  grid-template-columns: 25% 70%;
+  grid-template-rows: 20px 20px 20px auto;
+  width: 50%;
+  outline: 1px solid black;
+  padding: 20px;
+  margin-top: 50px;
+}
+.event-image {
+  grid-area: image;
+  align-self: center;
+  margin: auto;
+  justify-self: flex-start;
+  width: 100%;
+  padding-right: 20px;
+
+}
+.event-view-wrapper {
+  display: grid;
+  padding: 50px;
+  width: 50%;
+  align-content: flex-start;
+  align-items: flex-start;
+  color: rgb(59, 59, 59);
+  font-size: .9em;
+  outline: 1px solid black;
+  margin-top: 50px;
+  line-height: 30px;
+}
+.event-view-wrapper > div{
+  width: 100%;
+  align-content: flex-start;
+  align-items: flex-start;
+  align-items: flex-start;
+}
+.title {
+  grid-area: title;
+  align-content: flex-start;
+  font-weight: bold;
+  width: 100%;
+  color: rgb(29, 117, 187);
+  align-content: flex-start;
+  text-transform: uppercase;
+  
+}
+.date {
+  grid-area: date;
+  font-size: .9em;
+
+}
+.username {
+  grid-area: user;
+  color: rgb(140, 198, 63);
+}
+.event-content {
+  grid-area: content;
+  align-content: flex-start;
+  line-height: 30px;
+}
+.event-wrapper-sp  > div {
+  margin: 0;
+  justify-self: left;
+  text-align: left;
+  justify-content: left;
+}
 .content-wrapper-sp {
   display: grid;
   justify-self: center;
   justify-content: center;
   grid-template-columns: 55%;
   overflow: hidden;
+  margin-top: 50px;
 }
 .content-wrapper-sp > div {
   display: grid;
