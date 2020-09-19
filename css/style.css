@@ -126,20 +126,49 @@ input:-webkit-autofill:focus {
   color: rgb(140, 198, 63);
   transition: background-color 5000s ease-in-out 0s;
 }
+
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  height: 150px;
+}
 input[type='text'],
+input[type='option'],
+select,
 input[type='password'],
 input[type='email'] {
-  display: block;
-  background: rgb(26, 26, 26);
-  border: none;
-  height: 30px;
-  outline: none;
-  padding: 10px;
-  margin-bottom: 10px;
-  box-shadow: 0 0 10px 2px rgb(0, 0, 0) inset;
-  width: 240px;
-  color: rgb(211, 211, 211);
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
+.content-wrapper-sp {
+  display: grid;
+  justify-self: center;
+  justify-content: center;
+  grid-template-columns: 55%;
+  overflow: hidden;
+}
+.content-wrapper-sp > div {
+  display: grid;
+  flex-shrink: initial;
+  justify-content: center;
+  justify-items: left;
+  align-content: flex-start;
+  padding: 50px;
+  z-index: -1;
+}
+
 .content-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -151,6 +180,7 @@ input[type='email'] {
 }
 .content-wrapper > div:nth-child(1) {
   display: grid;
+  flex-shrink: initial;
   justify-content: center;
   justify-items: left;
   align-content: flex-start;
@@ -210,12 +240,57 @@ input[type='email'] {
   padding: 0;
   text-transform: uppercase;
 }
-.content-wrapper p {
+.content-sp-h1 {
+  margin: 0;
+  color: rgb(29, 117, 187);
+  font-size: 3em;
+  text-align: left;
+  padding: 0;
+  text-transform: uppercase;
+}
+.content-sp-h2 {
+  margin: 0;
+  color: rgb(29, 117, 187);
+  font-size: 2em;
+  text-align: left;
+  font-weight: lighter;
+  padding: 0;
+  text-transform: uppercase;
+}
+.content-wrapper p,
+.content-wrapper-sp p {
   line-height: 30px;
+  padding-bottom: 30px;
 }
 .content-img {
+  display: flex;
   width: 100%;
   object-fit: contain;
+}
+.contact {
+  display: grid;
+  height: 100%;
+  background: url('../KinderMission-assets/contactbg.png');
+  background-position: top;
+}
+.contact-form {
+  width: 400px;
+  background: white;
+  justify-self: center;
+  align-self: center;
+  padding: 20px;
+}
+.contact-form > input[type='text'] {
+  margin-top: 20px;
+}
+.contact-form p,
+h3 {
+  color: rgb(29, 117, 187);
+  text-align: center;
+}
+.message {
+  height: 100px;
+  width: 300px;
 }
 #footer {
   display: grid;
@@ -238,6 +313,7 @@ input[type='email'] {
   padding: 5px;
 }
 #footer h3 {
+  text-align: left;
   border-bottom: 1px solid rgb(29, 117, 187);
 }
 #footer #footer > div {
@@ -245,6 +321,7 @@ input[type='email'] {
 .footer-logo {
   width: 100px;
 }
+
 /* Buttons */
 
 .enroll-btn,
@@ -275,6 +352,19 @@ input[type='email'] {
 }
 .learn-btn2 {
   width: 130px;
+  height: 45px;
+  background-color: rgb(29, 117, 187);
+  box-shadow: 0px 2px 6px black;
+  color: white;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.submit-btn {
+  display: grid;
+  width: 100%;
+  place-content: center;
   height: 45px;
   background-color: rgb(29, 117, 187);
   box-shadow: 0px 2px 6px black;

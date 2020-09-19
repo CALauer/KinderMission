@@ -23,13 +23,14 @@ session_start();
             <div id="header">
             <div>
             <ul> 
-            <li><a href="../view/index.php">About</a></li>
-            <li><a href="../view/records.php">Academics</a></li>
-            <li><a href="../view/records.php">Programs</a></li>
-            <li><a href="../view/records.php">Enrollment</a></li>
-            <li><a href="../view/records.php">Scholarships</a></li>
-            <li><a href="../view/records.php">Events</a></li>
-            <li><a href="../view/records.php">Contact</a></li>
+            <li><a href="../view/index">Home</a></li>
+            <li><a href="../view/about">About</a></li>
+            <li><a href="../view/academics">Academics</a></li>
+            <li><a href="../view/programs">Programs</a></li>
+            <li><a href="../view/enrollment">Enrollment</a></li>
+            <li><a href="../view/scholarships">Scholarships</a></li>
+            <li><a href="../view/events">Events</a></li>
+            <li><a href="../view/contact">Contact</a></li>
             </ul>
             </div>
             <div>
@@ -45,13 +46,14 @@ session_start();
             <div id="header">
             <div>
             <ul> 
-            <li><a href="../view/index.php">About</a></li>
-            <li><a href="../view/records.php">Academics</a></li>
-            <li><a href="../view/records.php">Programs</a></li>
-            <li><a href="../view/records.php">Enrollment</a></li>
-            <li><a href="../view/records.php">Scholarships</a></li>
-            <li><a href="../view/records.php">Events</a></li>
-            <li><a href="../view/records.php">Contact</a></li>
+            <li><a href="../view/index">Home</a></li>
+            <li><a href="../view/about">About</a></li>
+            <li><a href="../view/academics">Academics</a></li>
+            <li><a href="../view/programs">Programs</a></li>
+            <li><a href="../view/enrollment">Enrollment</a></li>
+            <li><a href="../view/scholarships">Scholarships</a></li>
+            <li><a href="../view/events">Events</a></li>
+            <li><a href="../view/contact">Contact</a></li>
             </ul>
             </div>
             <div>
