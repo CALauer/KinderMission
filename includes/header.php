@@ -58,8 +58,8 @@ session_start();
             </div>
             <div>
             <ul>
-            <li class="right"><a href="register.php">Register</a>|
-            </li> <li><a href="../view/login.php">Login</a></li></ul></div>
+            <li class="right"><img src="../KinderMission-assets/phone.png" class="phone" /><p>(336)886-0121</p> |
+            <a href="../view/login.php">Admin Login</a></li></ul></div>
             </div>';
         }
     

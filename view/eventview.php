@@ -39,8 +39,8 @@ if ($result->num_rows > 0) { //profile view
                 "<div>Posted By: " . $row["username"] . "</div>" .
                 "<div>Posted On: " . $row["date"] . "</div>" .
                 "<div class=''><img src='$image' class='event-image'/></div>" .
-                "<div class=''>" . $row["content"] . 
-                "</div></div>";
+                "<div class=''><p>" . $row["content"] . 
+                "</p></div></div>";
             }
         }
 
