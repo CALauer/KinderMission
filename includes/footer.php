@@ -5,7 +5,7 @@
     <div id="footer">
 
         <div>
-            <img src="../KinderMission-assets/KMA.png" alt="KMA-Logo" class="footer-logo">
+            <img src="../KinderMission-assets/KMA.png" alt="KMA-Logo" class="footer-logo" /><br />
         </div>
         <div>
             <h3>For Parents</h3>
@@ -27,7 +27,22 @@
                 <li><span class="bold">Email:</span> kindermissionacademy@gmail.com</li>
             </ul>
         </div>
+
+        <div>
+            <h3>Social Media</h3>
+            <ul>
+                <li><span class="bold">Facebook</li>
+                <li><span class="bold">Instagram</li>
+                <li><span class="bold">Pintrest</li>
+                <li><span class="bold">Twitter</li>
+                <li><span class="bold">LinkedIn</li>
+            </ul>
+        </div>
     </div>
+    </div>
+    <p class="footer-p">© KinderMission Academy 2020 <br />Designed and Developer by <a href="https://chrislauer.net">
+            Chris Lauer</a></p>
+    <div>
 </footer>
 
 </html>

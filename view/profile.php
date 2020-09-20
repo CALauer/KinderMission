@@ -20,7 +20,8 @@ echo '<div id="admin-wrapper">
         <button type="button" class="admin-btn">Add Event</button>
         <button type="button" class="admin-btn" id="add_project">Add User</button>
         <button type="button" class="admin-btn">Delete User</button>
-        </div></div>';
+        </div>
+        <div></div></div>';
             }
         }
     } 

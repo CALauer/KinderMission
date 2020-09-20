@@ -209,6 +209,8 @@ textarea {
 input[type='text'],
 input[type='option'],
 select,
+input[type='tel'],
+input[type='date'],
 input[type='password'],
 input[type='email'] {
   width: 100%;
@@ -427,6 +429,11 @@ input[type='email'] {
   align-self: center;
   padding: 20px;
 }
+.enrollment-form {
+  width: 400px;
+  background: white;
+  margin: 0;
+}
 .contact-form > input[type='text'] {
   margin-top: 20px;
 }
@@ -443,7 +450,8 @@ h3 {
   display: grid;
   margin: 0 auto;
   justify-self: center;
-  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  grid-template-columns: auto auto auto auto;
   color: rgb(29, 117, 187);
   font-weight: normal;
   font-size: 1em;
@@ -472,7 +480,13 @@ h3 {
 .footer-logo {
   width: 100px;
 }
-
+.footer-p {
+  margin: auto;
+  text-align: center;
+  color: black;
+  font-size: .8em;
+  padding: 20px;
+}
 /* Buttons */
 
 .enroll-btn,
@@ -539,6 +553,21 @@ h3 {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 10px;
+}
+.admin-btn:hover {
+  display: grid;
+  width: 300px;
+  place-content: center;
+  height: 45px;
+  background-color: rgb(140, 198, 63);
+  box-shadow: 0px 2px 6px black;
+  color: white;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  cursor: pointer;
 }
 
 /* Classes */
