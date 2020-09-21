@@ -14,11 +14,13 @@ session_start();
 <body>
     <?php 
 
-    if (isset($_SESSION['id'])) {
+    if (isset($_SESSION['id']) && isset($_SESSION['title'])) {
         $sql = "SELECT * FROM users where id = '".$_SESSION['id']."'";
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
             while($row = $result->fetch_assoc()) {
+        $id = $row["id"];
+
             echo '
             <div id="header">
             <div>
@@ -35,7 +37,7 @@ session_start();
             </div>
             <div>
             <ul>
-            <li class="right"><a href="profile.php?id='.$row["id"].'"><span class="blue">'. $row["username"] .'</span></a>|
+            <li class="right"><a href="profile.php?id='.$id.'"><span class="blue">'. $row["username"] .'</span></a>|
             </li> <li><a href="../includes/logout.php">Logout</a></li></ul></div></div>';
             }
         }

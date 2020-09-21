@@ -5,7 +5,7 @@ require "../includes/header.php";
 <header>
     <div id="header_wrapper">
         <div class="container">
-            <img src="../KinderMission-assets/header.png" alt="header" class="header" />
+            <img src="../KinderMission-assets/header.png" alt="header" class="header-img" />
             <div class="centered">
                 <h1 class="headerCatch-h1">KinderMission Academy</h1>
                 <h1 class="headerCatch-h2">Play, Learn, Create</h1>

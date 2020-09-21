@@ -30,9 +30,11 @@ if(isset($_POST['Login'])) {
                     exit();
                 }
                 else if ($passwordCheck == true) {
+
                     session_start();
                     $_SESSION['id'] = $row['id'];
                     $_SESSION['username'] = $row['username'];
+                    $_SESSION['title'] = $row['title'];
                     header ('Location: ../view/index.php?login=success');
                     exit();
                 } 

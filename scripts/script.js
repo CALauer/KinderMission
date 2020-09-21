@@ -5,3 +5,4 @@ $('#add_project').click('tap', function() {
 		$('#profile_content_edit').fadeIn(500);
 	});
 });
+

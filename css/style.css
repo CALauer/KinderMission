@@ -11,7 +11,6 @@
 }
 /* Image overlay */
 .container {
-  z-index: -1;
   position: relative;
   text-align: center;
   color: white;
@@ -25,23 +24,32 @@
 #admin-wrapper {
   display: grid;
   margin:  0 ;
-  grid-template-columns: 50% 50%; 
-  width: 100%;
   justify-content: flex-start;
+  align-content: flex-start;
+  grid-template-columns: 20% 80%; 
+  width: 100%;
   padding: 50px;
 }
 #admin-wrapper > div {
   display: grid;
+  align-content: flex-start;
+  width: 100%;
   margin:  0 ;
-  justify-content: flex-start;
+  background: rgb(29, 117, 187);
+  padding: 20px;
 }
-#admin-wrapper > div:nth-child(even) {
+#admin-wrapper > div:nth-child(2) {
   display: grid;
-  margin:  0 ;
+  grid-template-areas: 'title title'
+  'auto auto';
+  grid-template-columns: 50% 50%;
   justify-content: flex-start;
+  align-content: flex-start;
   background: rgb(236, 236, 236);
-  min-height: 100%;
-  min-width: 100%;
+}
+.panel-title {
+  margin: 0;
+  grid-area: title;
 }
 #admin-wrapper h2 {
   display: grid;
@@ -61,12 +69,30 @@
   display: grid;
   margin: auto;
   height: 45px;
+  z-index: 999;
   width: 100%;
   grid-template-columns: 50% 50%;
   box-shadow: 0px 0px 8px black;
   background: white;
   align-content: center;
   font-size: .9em;
+}
+.helper {
+  text-align: center;
+  color: orange;
+  padding: none;
+  font-size: .8em;
+}
+.helper_suc {
+  text-align: center;
+  font-size: .8em;
+  color: Green;
+  padding: none;
+}
+.header {
+  height: 700px;
+  width: 100%;
+  object-fit: cover;
 }
 .blue {
   color: rgb(29, 117, 187);
@@ -81,10 +107,12 @@
   text-transform: uppercase;
   text-shadow: 0px 8px 20px black;
 }
-.header {
+
+.header-img {
   height: 700px;
   object-fit: cover;
   width: 100%;
+  z-index: -10;
 }
 #header div {
   width: 100%;
@@ -151,6 +179,8 @@
 #header_wrapper {
   margin: 0 auto;
   width: 100%;
+  height: 700px;
+
 }
 
 #header_wrapper > div p {
@@ -185,15 +215,7 @@
   display: grid;
   width: 300px;
 }
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:active,
-input:-webkit-autofill:focus {
-  border: none;
-  -webkit-text-fill-color: rgb(211, 211, 211);
-  color: rgb(140, 198, 63);
-  transition: background-color 5000s ease-in-out 0s;
-}
+
 
 textarea {
   width: 100%;
@@ -206,9 +228,11 @@ textarea {
   resize: vertical;
   height: 150px;
 }
+
 input[type='text'],
 input[type='option'],
 select,
+input[type="file"],
 input[type='tel'],
 input[type='date'],
 input[type='password'],
@@ -221,8 +245,21 @@ input[type='email'] {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  background: white;
 }
 
+.inputFile {
+  border: 1px solid #ccc;
+  display: inline-block;
+  width: 100%;
+  padding: 6px 12px;
+  cursor: pointer;
+  height: 40px;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  background: white;
+}
 .event-wrapper-sp {
   display: grid;
   margin: 0 auto;
@@ -432,7 +469,10 @@ input[type='email'] {
 .enrollment-form {
   width: 400px;
   background: white;
-  margin: 0;
+  box-shadow: 0px 2px 10px black;
+  padding: 20px;
+  margin-bottom: 50px;
+
 }
 .contact-form > input[type='text'] {
   margin-top: 20px;
@@ -489,8 +529,7 @@ h3 {
 }
 /* Buttons */
 
-.enroll-btn,
-.enroll-btn:focus {
+.enroll-btn {
   margin-top: 20px;
   width: 130px;
   height: 45px;
@@ -502,6 +541,7 @@ h3 {
   font-weight: bold;
   text-transform: uppercase;
 }
+
 .learn-btn {
   margin: 0;
   margin-top: 20px;
@@ -542,10 +582,10 @@ h3 {
 }
 .admin-btn {
   display: grid;
-  width: 300px;
   place-content: center;
   height: 45px;
-  background-color: rgb(29, 117, 187);
+  width: 100%;
+  background-color: rgb(140, 198, 63);
   box-shadow: 0px 2px 6px black;
   color: white;
   border: none;
@@ -555,25 +595,61 @@ h3 {
   margin-bottom: 10px;
 }
 .admin-btn:hover {
-  display: grid;
-  width: 300px;
-  place-content: center;
-  height: 45px;
-  background-color: rgb(140, 198, 63);
-  box-shadow: 0px 2px 6px black;
-  color: white;
-  border: none;
-  outline: none;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 10px;
+  background-color: rgb(235, 235, 235);
+  color: rgb(29, 117, 187);
   cursor: pointer;
 }
-
+.submit-btn:hover,
+.learn-btn2:hover {
+  background-color: rgb(140, 198, 63);
+  cursor: pointer;
+}
+.enroll-btn:hover {
+  cursor: pointer;
+  background: rgb(29, 117, 187);
+}
+.learn-btn:hover
+ {
+  cursor: pointer;
+  background: rgb(29, 117, 187);
+}
 /* Classes */
 .bold {
   font-weight: bold;
 }
 .phone {
   align-self: center;
+}
+table {
+  display: grid;
+  margin: 0;
+  margin-bottom: 20px;
+  outline: 1px solid black;
+  border-collapse: collapse;
+  text-align: left;
+}
+.table-name {
+  color: rgb(140, 198, 63);
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 1.2em;
+  background: rgb(59, 59, 59);
+  width: 100%;
+  padding: 5px;
+}
+tr {
+}
+tr:nth-child(even) {
+  background: rgb(255, 255, 255);
+  padding: 5px;
+
+}
+th {
+  padding: 5px;
+}
+td {
+  border: none;
+  padding: 5px;
+  font-size: .9em;
 }
