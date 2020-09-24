@@ -39,7 +39,7 @@
     </div>
     </div>
     <p class="footer-p">© KinderMission Academy 2020 <br />Designed and Developer by <a href="https://chrislauer.net">
-            Chris Lauer</a></p>
+            Chris Lauer</a><br /><a href="../view/login.php">Admin Login</a></p>
     <div>
 </footer>
 </body>

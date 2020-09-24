@@ -7,11 +7,11 @@ require "../includes/header.php";
         <div class="header-image-academics">
             <h1 class="headerCatch-h1">Academic Excellence</h1>
             <h2 class="headerCatch-h2">Play, learn, create</h2>
-            <!-- <p>Childcare facility serving children from 6 weeks to 12 years old.</p> -->
         </div>
     </div>
 </header>
 <div class="content-wrapper-odd">
+
     <div>
         <h1 class="content-h1">Science and Math</h1>
         <h2 class="content-h2">little einsteins</h2>
@@ -24,8 +24,9 @@ require "../includes/header.php";
     <div>
         <img src="../KinderMission-assets/science.png" alt="academia" class="content-img">
     </div>
+
 </div>
-<div class="content-wrapper-even">
+<div class="content-wrapper-odd">
     <div>
         <img src="../KinderMission-assets/puzzle.png" alt="academia" class="content-img">
     </div>

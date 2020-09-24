@@ -9,6 +9,7 @@ session_start();
     <link rel="stylesheet" href="../css/navbar.css" />
     <link rel="stylesheet" href="../css/index/index.css" />
     <link rel="stylesheet" href="../css/enrollment/enrollment.css" />
+    <link rel="stylesheet" href="../css/about/about.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <!-- <link rel="shortcut icon" href="../../portfolio_images-assets/cl_logo_big.png" type="image/x-icon" /> -->
     <title>KinderMission Academy</title>

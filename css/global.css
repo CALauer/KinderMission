@@ -375,24 +375,7 @@ input[type='email'] {
   text-align: left;
   justify-content: left;
 }
-.content-wrapper-sp {
-  display: grid;
-  justify-self: center;
-  justify-content: center;
-  grid-template-columns: 55%;
-  overflow: hidden;
-  margin-top: 50px;
-}
-.content-wrapper-sp > div {
-  display: grid;
-  flex-shrink: initial;
-  justify-content: center;
-  justify-items: left;
-  align-content: flex-start;
-  padding: 3%;
 
-  z-index: -1;
-}
 section {
   display: grid;
 }
@@ -413,7 +396,15 @@ section {
   text-align: center;
 
 }
-
+.content-enroll-h2 {
+  margin: 0;
+  color: white;
+  font-size: 3em;
+  text-align: left;
+  font-weight: lighter;
+  padding: 0;
+  text-transform: uppercase;
+}
 .content-h1 {
   margin: 0;
   color: rgb(29, 117, 187);
@@ -652,8 +643,7 @@ table {
   width: 100%;
   padding: 5px;
 }
-tr {
-}
+
 tr:nth-child(even) {
   background: rgb(255, 255, 255);
   padding: 5px;
