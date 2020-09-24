@@ -1,0 +1,61 @@
+.nav {
+    display: grid;
+    height: 80px;
+    width: 100%;
+    grid-template-areas: 'auto auto';
+    grid-template-columns: 50% 50%;;
+    justify-content: left;
+    position: fixed;
+    background: white;
+}
+.nav > div:nth-child(1){
+    display: grid;
+    justify-content: left;
+    width: 80%;
+}
+.nav > div:nth-child(2){
+    display: grid;
+    width: 80%;
+    justify-content: right;
+}
+
+.nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 100%;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+}
+.nav ul li a{
+    color: rgb(29, 117, 187);
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 1.2em;
+}
+.nav ul li a:hover{
+    color: rgb(140, 198, 63);
+}
+.nav > div:nth-child(2) ul li{
+    justify-content: right;
+    justify-items: right;
+    margin: 0;
+}
+.nav > div:nth-child(2) ul{
+    display: grid;
+    justify-content: right;
+    justify-items: right;
+}
+
+.phone {
+    display: inline-grid;
+    margin-right: 10px;
+    width: 14px;
+    vertical-align: middle;
+  }
+  .logo-menu {
+    width: 90px;
+    margin-right: 50px;
+  }

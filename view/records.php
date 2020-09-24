@@ -6,7 +6,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT id, username, password, firstname, lastname, created_at FROM users";
+$sql = "SELECT id, username, password, firstname, lastname, image, created_at FROM users";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {

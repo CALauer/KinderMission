@@ -4,11 +4,8 @@ require "../includes/header.php";
 ?>
 <header>
     <div id="header_wrapper">
-        <div class="container">
-            <img src="../KinderMission-assets/about.png" alt="header" class="header" />
-            <div class="centered">
-                <h2 class="headerCatch-h2">About Us</h2>
-            </div>
+        <div class="header-image-about">
+            <h2 class="headerCatch-h2">About Us</h2>
         </div>
     </div>
 </header>

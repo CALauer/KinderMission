@@ -14,7 +14,7 @@ if ($result->num_rows > 0) {
   while($row = $result->fetch_assoc()) {
     $image = $row["image"];
     echo "<div class='event-wrapper-sp'>" .
-    "<div class='event-image '><img src='$image' class='event-image'/></div>" .
+    "<div class='event-image '><img src='../uploads/$image' class='event-image'/></div>" .
     "<div class='title'>" . $row["title"] . "</div>" .
     "<div class='username'>" . $row["username"] . "</div>" .
     "<div class='date'>" . $row["date"] . "</div>" .

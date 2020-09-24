@@ -6,3 +6,19 @@ $('#add_project').click('tap', function() {
 	});
 });
 
+$(document).scroll(function () {
+
+
+});
+// $(window).scroll(function(){
+// 	var scrollPos = $(document).scrollTop();
+// 	if (scrollPos >= 0 ) {
+// 		$(".nav").animate({height: "80px"}, 200);
+// 		console.log(scrollPos);
+// 		return;
+
+
+// 		return;
+
+// 	}
+// });

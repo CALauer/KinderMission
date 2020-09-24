@@ -3,8 +3,7 @@ include '../includes/config.php';
 require "../includes/header.php"; 
 ?>
 
-<div class="content-wrapper">
-
+<div class="enrollment-wrapper">
     <div>
         <form class="enrollment-form" action="../includes/enroll.php" method="post">
             <h3>Enrollment Request</h3>

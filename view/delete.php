@@ -1,22 +1,23 @@
 <?php 
 include '../includes/config.php'; 
 require "../includes/header.php"; 
-
-
-if(isset($_GET['delete'])) {
 $id = $_GET['delete'];
 $sql= ("DELETE FROM events WHERE id=$id") or die($mysqli->error());
+$id = $_SESSION['id']; //Session ID
+
+
+
+if (($_SESSION['id'] === $id) && ($_SESSION['title'] === "Admin")) {
+if(isset($_GET['delete'])) {
 mysqli_query($conn, $sql);
-echo '
-<section>
-    <div class="content-wrapper-sp">
-        <div>
-            <h1 class="content-sp-h1">'.$id.' Deleted</h1>
-        </div>
-</section>';
+
+header("Location: ../view/profile.php?id=".$_SESSION['id']."&delete=success");
+
 }
 else {
-    echo '<h1>Post unsuccessful</h1>';
+    header("Location: ../view/profile.php?id=".$_SESSION['id']."&delete=failed");
+
+}
 }
 require "../includes/footer.php"; 
 ?>

@@ -1,9 +1,7 @@
-</body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript" $(document).ready(function () {}); src="../scripts/script.js"></script>
 <footer>
     <div id="footer">
-
         <div>
             <img src="../KinderMission-assets/KMA.png" alt="KMA-Logo" class="footer-logo" /><br />
         </div>
@@ -44,5 +42,6 @@
             Chris Lauer</a></p>
     <div>
 </footer>
+</body>
 
 </html>

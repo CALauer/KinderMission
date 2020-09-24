@@ -1,0 +1,694 @@
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+p {
+  font-size: 1.3em;
+  line-height: 35px;
+}
+
+/* Image overlay */
+.header-image {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  color: white;
+  background: url("../KinderMission-assets/header.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  width: 100%;
+}
+.header-image-about {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  color: white;
+  background: url("../KinderMission-assets/puzzle.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  width: 100%;
+}
+.header-image-academics {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  color: white;
+  background: url("../KinderMission-assets/school.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  width: 100%;
+}
+
+#admin-wrapper {
+  display: grid;
+  grid-template-areas: 
+  'col1 col2'
+  'col1 col2';
+  margin: 0 ;
+  justify-content: flex-start;
+  align-content: flex-start;
+  grid-template-columns: 20% 80%; 
+  width: 100%;
+    padding: 3%;
+}
+#admin-wrapper > .col1{
+  display: grid;
+  grid-area: col1, col2;
+  margin: auto ;
+  align-content: flex-start;
+  width: 100%;
+  padding: 20px;
+  background: rgb(29, 117, 187);
+}
+#admin-wrapper > .col2{
+  display: grid;
+  grid-area: col2;
+  grid-template-areas: 'title title'
+  'col1 col2';
+  align-content: flex-start;
+  width: 100%;
+  padding: 20px;
+}
+.inner-col1 {
+  display: grid;
+  grid-area: col1;
+  padding: 20px;
+}
+.inner-col2 {
+  display: grid;
+  grid-area: col2;
+  padding: 20px;
+}
+.panel-title {
+  margin: 0;
+  grid-area: title;
+}
+#admin-wrapper > div:nth-child(2) {
+  display: grid;
+  align-content: flex-start;
+  align-items: flex-start;
+  grid-template-columns: 50% 50%;
+  background: rgb(236, 236, 236);
+}
+#admin-wrapper h2 {
+  display: grid;
+  margin: 0;
+  text-align: left;
+  justify-self: left;
+}
+#admin-wrapper h3 {
+  display: grid;
+  margin: 0;
+  margin-bottom: 20;
+  text-align: left;
+  justify-self: left;
+}
+#header {
+  display: grid;
+  margin: auto;
+  grid-template-columns: 5% 80% 10%;
+  background: white;
+  align-content: center;
+  font-size: .9em;
+  font-weight: bold;
+  padding: 20px;
+
+}
+
+.helper {
+  text-align: center;
+  color: orange;
+  padding: none;
+  font-size: .8em;
+}
+.helper_suc {
+  text-align: center;
+  font-size: .8em;
+  color: Green;
+  padding: none;
+}
+.header {
+  height: 700px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.headerCatch-h1 {
+  display: grid;
+  font-size: 4em;
+  text-transform: uppercase;
+  text-shadow: 0px 8px 20px black;
+}
+.headerCatch-h2 {
+  font-size: 3em;
+  text-transform: uppercase;
+  text-shadow: 0px 8px 20px black;
+}
+#header div {
+  width: 100%;
+  vertical-align: middle;
+}
+#header > div:nth-child(even) {
+  display: grid;
+  text-align: right;
+  justify-content: right;
+  width: 100%;
+  align-self: center;
+
+}
+#header div ul {
+  text-align: right;
+  list-style-type: none;
+  align-content: center;
+}
+#header div ul.header-loc {
+  margin: 0;
+  display: grid;
+  text-align: right;
+  list-style-type: none;
+  height: 100%;
+}
+#header div ul.header-loc li {
+  margin: 0;
+  text-align: right;
+  align-content: space-around;
+
+}
+#header > div ul li {
+  list-style-type: none;
+  display: inline;
+  padding-left: 10px;
+}
+#header > div ul li a {
+  font-size: 1.2em;
+
+  color: rgb(29, 117, 187);
+  text-decoration: none;
+  align-content: center;
+  vertical-align: middle;
+
+  
+}
+#header > div ul li img {
+  color: rgb(29, 117, 187);
+  text-decoration: none;
+  vertical-align: middle;
+
+}
+
+#header > div ul li a:hover {
+  color: rgb(140, 198, 63);
+}
+#header ul li img {
+  margin-top: 4px;
+}
+
+#header_wrapper {
+  display: grid;
+  margin: 0 auto;
+  width: 100%;
+  height: 700px;
+
+}
+
+
+#header_wrapper > div ul li {
+  list-style-type: none;
+  color: rgb(146, 146, 146);
+  font-size: 0.9em;
+  padding-left: 10px;
+}
+#header_wrapper > div ul li a {
+  text-decoration: none;
+  color: rgb(46, 136, 255);
+  font-size: 0.9em;
+}
+#form_wrapper {
+  display: grid;
+  margin-top: 50px;
+  padding: 20px;
+  width: 350px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, .5)
+
+}
+#form_wrapper .input_field {
+  display: grid;
+  width: 300px;
+}
+
+
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  height: 150px;
+}
+
+input[type='text'],
+input[type='option'],
+select,
+input[type="file"],
+input[type='tel'],
+input[type='date'],
+input[type='password'],
+input[type='email'] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background: white;
+}
+
+.inputFile {
+  border: 1px solid #ccc;
+  display: inline-block;
+  width: 100%;
+  padding: 6px 12px;
+  cursor: pointer;
+  height: 40px;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  background: white;
+}
+.event-wrapper-sp {
+  display: grid;
+  margin: 0 auto;
+  grid-template-areas: 'image title'
+  'image user'
+  'image date'
+  'image content';
+  grid-template-columns: 25% 70%;
+  grid-template-rows: 20px 20px 20px auto;
+  width: 50%;
+  outline: 1px solid black;
+  padding: 20px;
+  margin-top: 50px;
+}
+.event-image {
+  grid-area: image;
+  align-self: center;
+  margin: auto;
+  justify-self: flex-start;
+  width: 100%;
+
+}
+.event-view-wrapper {
+  display: grid;
+    padding: 3%;
+
+
+
+  width: 50%;
+  align-content: flex-start;
+  align-items: flex-start;
+  color: rgb(59, 59, 59);
+  font-size: .9em;
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, .5);
+  margin-top: 50px;
+  line-height: 30px;
+}
+.event-view-wrapper p{
+  display: grid;
+  padding-top: 50px;
+
+  line-height: 30px;
+}
+.event-view-wrapper > div{
+  width: 100%;
+  align-content: flex-start;
+  align-items: flex-start;
+  align-items: flex-start;
+}
+.title {
+  grid-area: title;
+  align-content: flex-start;
+  font-weight: bold;
+  width: 100%;
+  color: rgb(29, 117, 187);
+  align-content: flex-start;
+  text-transform: uppercase;
+  
+}
+.date {
+  grid-area: date;
+  font-size: .9em;
+
+}
+.username {
+  grid-area: user;
+  color: rgb(140, 198, 63);
+}
+.event-content {
+  grid-area: content;
+  align-content: flex-start;
+  line-height: 30px;
+}
+.event-wrapper-sp  > div {
+  margin: 0;
+  justify-self: left;
+  text-align: left;
+  justify-content: left;
+}
+.content-wrapper-sp {
+  display: grid;
+  justify-self: center;
+  justify-content: center;
+  grid-template-columns: 55%;
+  overflow: hidden;
+  margin-top: 50px;
+}
+.content-wrapper-sp > div {
+  display: grid;
+  flex-shrink: initial;
+  justify-content: center;
+  justify-items: left;
+  align-content: flex-start;
+  padding: 3%;
+
+  z-index: -1;
+}
+section {
+  display: grid;
+}
+
+
+
+
+.content-info h1 {
+  font-size: 4em;
+  color: white;
+  text-transform: uppercase;
+}
+.content-info h2 {
+  font-size: 3em;
+  color: white;
+  text-transform: uppercase;
+  font-weight: lighter;
+  text-align: center;
+
+}
+
+.content-h1 {
+  margin: 0;
+  color: rgb(29, 117, 187);
+  font-size: 4rem;
+  font-size-adjust: 2em;
+  text-align: left;
+  padding: 0;
+  text-transform: uppercase;
+  word-break: keep-all;
+}
+.content-h2 {
+  margin: 0;
+  color: rgb(29, 117, 187);
+  font-size: 3em;
+  text-align: left;
+  font-weight: lighter;
+  padding: 0;
+  text-transform: uppercase;
+}
+.content-sp-h1 {
+  margin: 0;
+  color: rgb(29, 117, 187);
+  font-size: 3em;
+  text-align: left;
+  padding: 0;
+  text-transform: uppercase;
+}
+.content-sp-h2 {
+  margin: 0;
+  color: rgb(29, 117, 187);
+  font-size: 2em;
+  text-align: left;
+  font-weight: lighter;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.content-img {
+  display: flex;
+  width: 100%;
+  object-fit: cover;
+}
+.contact {
+  display: grid;
+  height: 100%;
+  background: url('../KinderMission-assets/contactbg.png');
+  background-position: top;
+}
+.contact-form {
+  width: 80%;
+  background: white;
+  justify-self: center;
+  align-self: center;
+  padding: 20px;
+}
+
+.enrollment-form-index {
+  min-width: 250px;
+  max-width: 600px;
+  margin: 0;
+  background: white;
+  box-shadow: 0px 2px 10px black;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+.contact-form > input[type='text'] {
+  margin-top: 20px;
+}
+.contact-form p,
+h3 {
+  color: rgb(29, 117, 187);
+  text-align: center;
+}
+.message {
+  height: 100px;
+  width: 300px;
+}
+
+#footer {
+  display: grid;
+  width: 100%;
+  justify-self: center;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  color: rgb(29, 117, 187);
+  font-weight: normal;
+  font-size: 1.2em;
+
+  padding: 3%;
+
+
+
+}
+
+#footer a {
+  color: rgb(29, 117, 187);
+  text-decoration: none;
+}
+#footer ul {
+  list-style-type: none;
+  padding: 15px;
+}
+#footer ul li {
+  list-style-type: none;
+  padding: 5px;
+}
+#footer h3 {
+  text-align: left;
+  border-bottom: 1px solid rgb(29, 117, 187);
+}
+#footer > div {
+  margin: 0 ;
+  justify-items: center;
+  justify-content: center;
+  padding: 3%;
+}
+.footer-logo {
+  display: grid;
+  margin: auto;
+  width: 50%;
+}
+.footer-p {
+  margin: auto;
+  text-align: center;
+  color: black;
+  font-size: .8em;
+  padding: 20px;
+}
+/* Buttons */
+
+.enroll-btn {
+  margin-top: 20px;
+  width: 130px;
+  height: 45px;
+  background-color: rgb(140, 198, 63);
+  box-shadow: 0px 2px 6px black;
+  color: white;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.learn-btn {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 130px;
+  height: 45px;
+  background-color: rgb(140, 198, 63);
+  box-shadow: 0px 2px 6px black;
+  color: white;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.learn-btn2 {
+  width: 130px;
+  height: 45px;
+  background-color: rgb(29, 117, 187);
+  box-shadow: 0px 2px 6px black;
+  color: white;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.submit-btn {
+  display: grid;
+  width: 100%;
+  place-content: center;
+  height: 45px;
+  background-color: rgb(29, 117, 187);
+  box-shadow: 0px 2px 6px black;
+  color: white;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.admin-btn {
+  display: grid;
+  place-content: center;
+  height: 45px;
+  width: 100%;
+  background-color: rgb(140, 198, 63);
+  box-shadow: 0px 2px 6px black;
+  color: white;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.admin-btn:hover {
+  background-color: rgb(235, 235, 235);
+  color: rgb(29, 117, 187);
+  cursor: pointer;
+}
+.submit-btn:hover,
+.learn-btn2:hover {
+  background-color: rgb(140, 198, 63);
+  cursor: pointer;
+}
+.enroll-btn:hover {
+  cursor: pointer;
+  background: rgb(29, 117, 187);
+}
+.learn-btn:hover
+ {
+  cursor: pointer;
+  background: rgb(29, 117, 187);
+}
+/* Classes */
+.bold {
+  font-weight: bold;
+}
+
+table {
+  display: grid;
+  margin: 0;
+  margin-bottom: 20px;
+  outline: 1px solid black;
+  border-collapse: collapse;
+  text-align: left;
+}
+.table-name {
+  color: rgb(140, 198, 63);
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 1.2em;
+  background: rgb(59, 59, 59);
+  width: 100%;
+  padding: 5px;
+}
+tr {
+}
+tr:nth-child(even) {
+  background: rgb(255, 255, 255);
+  padding: 5px;
+
+}
+th {
+  padding: 5px;
+}
+td {
+  border: none;
+  padding: 5px;
+  font-size: .9em;
+}
+.none {
+  display: none;
+}
+.logo-menu {
+  width: 70px;
+}
+.blue {
+  color: rgb(29, 117, 187);
+}
+@media only screen and (max-width: 600px) {
+  #header_wrapper {
+    display: grid;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+    .headerCatch-h1, .content-info h2, .content-h1 {
+      font-size: 2em;
+  }
+  .headerCatch-h2, .content-h2 {
+    font-size: 1.5em;
+}
+
+
+}

@@ -1,0 +1,52 @@
+.enrollment-wrapper {
+    display: grid;
+    grid-template-areas: 'col1 col2' ;
+    grid-template-columns: 50% 50%;
+    padding: 3%;
+    padding-top: 80px;
+}
+.enrollment-wrapper > div:nth-child(1){
+    display: grid;
+    align-content: flex-start;
+    grid-area: col1;
+    padding: 3%;
+    width: 100%;
+}
+.enrollment-wrapper > div:nth-child(2){
+    display: grid;
+    align-content: flex-start;
+    grid-area: col2;
+    padding: 3%;
+    width: 100%;
+}
+.enrollment-form {
+    display: grid;
+    width: 100%;
+    max-width: 600px;
+    min-width: 200px;
+    background: white;
+    box-shadow: 0px 2px 10px black;
+    padding: 20px;
+
+  }
+@media only screen and (max-width: 986px) {
+    .enrollment-wrapper {
+        display: grid;
+        grid-template-areas: 'col2''col1' ;
+        grid-template-columns: 100%;
+        margin-top: 40px;
+        padding: 3%;
+    }
+    .enrollment-wrapper > div:nth-child(1){
+        display: grid;
+        align-content: flex-start;
+        grid-area: col1;
+        padding: 3%;
+    }
+    .enrollment-wrapper > div:nth-child(2){
+        width: 100%;
+        align-content: flex-start;
+        grid-area: col2;
+    }
+
+}
