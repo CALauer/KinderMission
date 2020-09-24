@@ -2,22 +2,24 @@
     display: grid;
     grid-template-areas: 'col1 col2 col3' ;
     grid-template-columns: 33% 34% 33%;
-    padding-top: 80px;
     background: rgb(29, 117, 187);
     color: white;
+    padding: 6%;
 }
 .enrollment-wrapper > div:nth-child(1){
     display: grid;
     grid-area: col1;
     align-content: center;
     padding: 3%;
-    width: 90%;
+    width: 100%;
+    margin: 0;
 }
 .enrollment-wrapper > div:nth-child(1) p{
     display: grid;
     align-content: flex-start;
     margin: 0;
     margin-bottom: 50px;
+    
 
 }
 .enrollment-wrapper > div:nth-child(2){
@@ -26,6 +28,7 @@
     grid-area: col2;
     padding: 3%;
     width: 100%;
+
 }
 .enrollment-wrapper > div:nth-child(3){
     display: grid;
@@ -33,6 +36,7 @@
     grid-area: col3;
     padding: 3%;
     width: 100%;
+
 }
 .enrollment-form {
     display: grid;
@@ -62,6 +66,7 @@
     .enrollment-wrapper > div:nth-child(1){
         display: grid;
         align-content: flex-start;
+        justify-content: center;
         grid-area: col1;
         padding: 3%;
     }

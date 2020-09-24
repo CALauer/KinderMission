@@ -485,14 +485,12 @@ h3 {
 
 #footer {
   display: grid;
-  width: 100%;
   justify-self: center;
   grid-template-rows: auto;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   color: rgb(29, 117, 187);
   font-weight: normal;
   font-size: 1.2em;
-
   padding: 3%;
 
 

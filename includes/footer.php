@@ -22,7 +22,8 @@
             <ul>
                 <li><span class="bold">Phone:</span> (336)-886-0121</li>
                 <li><span class="bold">Address:</span><br /> 4065 Premier Drive <br /> High Point, NC 27265</li>
-                <li><span class="bold">Email:</span> kindermissionacademy@gmail.com</li>
+                <li><span class="bold">Email:</span><a href="mailto: kindermissionacademy@gmail.com"> Send Email</a>
+                </li>
             </ul>
         </div>
 

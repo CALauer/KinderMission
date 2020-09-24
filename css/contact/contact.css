@@ -1,0 +1,43 @@
+.contact-wrapper-sp {
+    display: grid;
+    justify-self: center;
+    grid-template-columns: 100%;
+    overflow: hidden;
+    padding: 3%;
+
+  }
+  .contact-wrapper-sp > div {
+    display: grid;
+    flex-shrink: initial;
+    justify-items: left;
+    justify-content: left;
+    align-content: flex-start;
+    padding: 3%;
+    margin: 0;
+  }
+  .contact-wrapper-sp > div h3 {
+    display: grid;
+    flex-shrink: initial;
+    justify-items: left;
+    justify-content: left;
+    align-content: flex-start;
+    margin: 0;
+  }
+  .contact-wrapper-sp > div h2 {
+    margin: 0;
+    color: rgb(29, 117, 187);
+    font-size: 2em;
+    text-align: left;
+    font-weight: lighter;
+    padding: 0;
+    text-transform: uppercase;
+  }
+@media only screen and (max-width: 986px) {
+    .contact-wrapper-sp {
+        display: grid;
+        justify-self: center;
+        justify-content: center;
+        grid-template-columns: 100%;
+        overflow: hidden;
+      }  
+}
