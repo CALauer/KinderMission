@@ -296,28 +296,8 @@ input[type='email'] {
   margin-bottom: 16px;
   background: white;
 }
-.event-wrapper-sp {
-  display: grid;
-  margin: 0 auto;
-  grid-template-areas: 'image title'
-  'image user'
-  'image date'
-  'image content';
-  grid-template-columns: 25% 70%;
-  grid-template-rows: 20px 20px 20px auto;
-  width: 50%;
-  outline: 1px solid black;
-  padding: 20px;
-  margin-top: 50px;
-}
-.event-image {
-  grid-area: image;
-  align-self: center;
-  margin: auto;
-  justify-self: flex-start;
-  width: 100%;
 
-}
+
 .event-view-wrapper {
   display: grid;
     padding: 3%;
@@ -353,7 +333,6 @@ input[type='email'] {
   color: rgb(29, 117, 187);
   align-content: flex-start;
   text-transform: uppercase;
-  
 }
 .date {
   grid-area: date;
@@ -379,9 +358,6 @@ input[type='email'] {
 section {
   display: grid;
 }
-
-
-
 
 .content-info h1 {
   font-size: 4em;

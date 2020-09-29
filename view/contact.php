@@ -8,6 +8,8 @@ require "../includes/header.php";
         <h2>Contact Us</h2>
         <h3>How can we help?</h3>
     </div>
+    <div>
+    </div>
 </div>
 <?php 
 require "../includes/footer.php"; 

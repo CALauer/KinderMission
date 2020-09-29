@@ -1,45 +1,41 @@
 .enrollment-wrapper {
     display: grid;
-    grid-template-areas: 'col1 col2 col3' ;
-    grid-template-columns: 33% 34% 33%;
+    grid-template-areas: 'col1 col2' ;
+    grid-template-columns: 50% 50%;
     background: rgb(29, 117, 187);
     color: white;
-    padding: 6%;
+    padding-top: 50px;
+
 }
 .enrollment-wrapper > div:nth-child(1){
     display: grid;
     grid-area: col1;
-    align-content: center;
-    padding: 3%;
-    width: 100%;
+    align-content: flex-start;
+    justify-content: center;
+    justify-self: center;
+    width: 50%;
     margin: 0;
+    padding: 6%;
 }
 .enrollment-wrapper > div:nth-child(1) p{
     display: grid;
     align-content: flex-start;
     margin: 0;
     margin-bottom: 50px;
-    
+    color: white;
 
 }
 .enrollment-wrapper > div:nth-child(2){
     display: grid;
     align-content: flex-start;
     grid-area: col2;
-    padding: 3%;
+    justify-content: center;
+    justify-self: center;
     width: 100%;
-
-}
-.enrollment-wrapper > div:nth-child(3){
-    display: grid;
-    align-content: flex-start;
-    grid-area: col3;
-    padding: 3%;
-    width: 100%;
+    padding: 6%;
 
 }
 .enrollment-form {
-    display: grid;
     width: 100%;
     max-width: 600px;
     min-width: 200px;
@@ -47,6 +43,7 @@
     box-shadow: 0px 2px 10px black;
     padding: 20px;
     color: black;
+
   }
 
 .header_wrapper_enroll {
@@ -60,8 +57,9 @@
   @media only screen and (max-width: 1100px) {
     .enrollment-wrapper {
         display: grid;
-        grid-template-areas: 'col1''col2' 'col3' ;
+        grid-template-areas: 'col1''col2'  ;
         grid-template-columns: 100%;
+
     }
     .enrollment-wrapper > div:nth-child(1){
         display: grid;
@@ -69,6 +67,8 @@
         justify-content: center;
         grid-area: col1;
         padding: 3%;
+
+        
     }
     .enrollment-wrapper > div:nth-child(2){
         width: 100%;
@@ -82,12 +82,13 @@
         display: grid;
         grid-template-areas: 'col1''col2';
         grid-template-columns: 100%;
+
     }
     .enrollment-wrapper > div:nth-child(1){
         display: grid;
         align-content: flex-start;
         grid-area: col1;
-        padding: 3%;
+        width: 100%;
     }
     .enrollment-wrapper > div:nth-child(2){
         width: 100%;

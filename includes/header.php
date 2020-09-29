@@ -11,6 +11,7 @@ session_start();
     <link rel="stylesheet" href="../css/enrollment/enrollment.css" />
     <link rel="stylesheet" href="../css/about/about.css" />
     <link rel="stylesheet" href="../css/contact/contact.css" />
+    <link rel="stylesheet" href="../css/events/events.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <!-- <link rel="shortcut icon" href="../../portfolio_images-assets/cl_logo_big.png" type="image/x-icon" /> -->
     <title>KinderMission Academy</title>
@@ -40,6 +41,7 @@ session_start();
         else {
             echo '
             <div class="nav">
+            
             <div>
                 <ul>
                     <li><img src="../KinderMission-assets/KMA.png" alt="KMA" class="logo-menu" />
@@ -54,12 +56,26 @@ session_start();
                 </ul>
                 </div>
             <div>
-                <ul>
+                <ul id="contact-nav">
                     <li>High Point, NC</li>
                     <li><img src="../KinderMission-assets/phone.png" class="phone" />(336)886-0121</li>
                 </ul>
+                <ul>
+                <li><img src="../KinderMission-assets/hamburger-menu.svg" class="hamburger-menu" id="hamburger-menu" /></li>
+            </ul>
             </div>
             </div>
+            <div class="mobile-menu">
+            <div>
+                <ul>
+                <li><a href="#">Test</a></li>
+                <li><a href="#">Test</a></li>
+                <li><a href="#">Test</a></li>
+                <li><a href="#">Test</a></li>
+                <li><a href="#">Test</a></li>
+                </ul>
+            </div>
+        </div>
 ';
         }
     

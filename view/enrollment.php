@@ -67,7 +67,6 @@ require "../includes/header.php";
             <input type="submit" class="submit-btn" value="Submit Request">
         </form>
     </div>
-    <div></div>
 </div>
 <?php 
 require "../includes/footer.php"; 
