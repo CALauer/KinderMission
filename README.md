@@ -22,6 +22,6 @@ Website overhaul
 * Add Employment Opportunities
 
 ## Assigned Tasks
-~~ * Larger Navbar | Completed ~~ 
-~~ * Form Adjustment | Completed ~~ 
+~~* Larger Navbar | Completed~~ 
+~~* Form Adjustment | Completed~~ 
 * Map Implimentation
