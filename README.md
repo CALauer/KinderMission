@@ -6,7 +6,7 @@ Admin Login Implimentation
 Backend 
 Mobile Menu Added | Not Functioning
 
-##Upcoming Updates
+## Upcoming Updates
 Code Optimization
 Switch to react.js
 ##To do
@@ -19,7 +19,7 @@ New Admin Panel
 Form Authentication
 Add Employment Opportunities
 
-##Assigned Tasks
+## Assigned Tasks
 Larger Navbar | Completed
 Form Adjustment | Completed
 Map Implimentation
