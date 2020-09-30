@@ -3,7 +3,7 @@ Website overhaul
 
 ## Past Updates
 * Site Redesign
-* Admin Login Implimentation
+* Admin Login Implementation
 * Backend 
 * Mobile Menu Added | Not Functioning
 
@@ -14,14 +14,14 @@ Website overhaul
 ## To do
 * Image Condense
 * File Condense
-* Impliment Employee Images
-* Impliment Organization Images
+* Implement Employee Images
+* Implement Organization Images
 * Events Page Responsive
 * New Admin Panel
 * Form Authentication
 * Add Employment Opportunities
 
 ## Assigned Tasks
-* Larger Navbar | Completed
-* Form Adjustment | Completed
+~~ * Larger Navbar | Completed ~~ 
+~~ * Form Adjustment | Completed ~~ 
 * Map Implimentation
