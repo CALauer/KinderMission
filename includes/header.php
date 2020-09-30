@@ -28,12 +28,42 @@ session_start();
         $id = $row["id"];
 
             echo '
-            <div id="navbar">
-                <div class="main-logo">
+            <div class="nav">
+            
+            <div>
+                <ul>
+                    <li><img src="../KinderMission-assets/KMA.png" alt="KMA" class="logo-menu" />
+                    </li>
+                    <li><a href="../view/index">Home</a></li>
+                    <li><a href="../view/about">About</a></li>
+                    <li><a href="../view/academics">Academics</a></li>
+                    <li><a href="../view/enrollment">Enroll</a></li>
+                    <li><a href="../view/scholarships">Scholarships</a></li>
+                    <li><a href="../view/events">Events</a></li>
+                    <li><a href="../view/contact">Contact</a></li>
+                </ul>
                 </div>
-                <div>
-                </div>
-            </div>';
+            <div>
+                <ul id="contact-nav">
+                    <li>High Point, NC</li>
+                    <li><img src="../KinderMission-assets/phone.png" class="phone" />(336)886-0121</li>
+                </ul>
+                <ul>
+                <li><img src="../KinderMission-assets/hamburger-menu.svg" class="hamburger-menu" id="hamburger-menu" /></li>
+            </ul>
+            </div>
+            </div>
+            <div class="mobile-menu">
+            <div>
+                <ul>
+                <li><a href="#">Test</a></li>
+                <li><a href="#">Test</a></li>
+                <li><a href="#">Test</a></li>
+                <li><a href="#">Test</a></li>
+                <li><a href="#">Test</a></li>
+                </ul>
+            </div>
+        </div>';
             }
         }
     }

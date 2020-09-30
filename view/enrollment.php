@@ -45,12 +45,10 @@ require "../includes/header.php";
         }
     }
         ?>
-            <label>Child's Father</label>
-            <input type="text" placeholder="Fathers Name" name="father">
-            <label>Child's Mother</label>
-            <input type="text" placeholder="Mothers Name" name="mother">
+            <label>Child's Parent/Legal Guardian</label>
+            <input type="text" placeholder="Guardian's Name" name="guardian">
             <label>Child's Name</label>
-            <input type="text" placeholder="Childs Name" name="child">
+            <input type="text" placeholder="Child's Name" name="child">
             <label>Email</label>
             <input type="text" placeholder="Email" name="email">
             <label>Phone</label>

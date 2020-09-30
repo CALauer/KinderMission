@@ -337,23 +337,17 @@ input[type='email'] {
 .date {
   grid-area: date;
   font-size: .9em;
-
+}
+.sc-content-wrapper {
+  display: grid;
+  padding-top: 80px;
+  padding: 3%;
 }
 .username {
   grid-area: user;
   color: rgb(140, 198, 63);
 }
-.event-content {
-  grid-area: content;
-  align-content: flex-start;
-  line-height: 30px;
-}
-.event-wrapper-sp  > div {
-  margin: 0;
-  justify-self: left;
-  text-align: left;
-  justify-content: left;
-}
+
 
 section {
   display: grid;

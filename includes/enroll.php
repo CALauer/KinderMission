@@ -2,8 +2,7 @@
 
 $errors = '';
 $myEmail = 'admin@chrislauer.net';//<-----Put Your email address here.
-$father = $_POST['father']; 
-$mother = $_POST['mother']; 
+$guardian = $_POST['guardian']; 
 $email_address = $_POST['email']; 
 $phone = $_POST['phone']; 
 $child = $_POST['child']; 
@@ -11,7 +10,7 @@ $allergies = $_POST['allergies'];
 $startDate = $_POST['startDate']; 
 $financial = $_POST['financial']; 
 
-if (empty($father) || empty($mother) || empty($email_address) || empty($child) || empty($financial) || empty($allergies) || empty($startDate))  {
+if (empty($guardian) || empty($email_address) || empty($child) || empty($financial) || empty($allergies) || empty($startDate))  {
         
     header("Location: ../view/enrollment.php?error=emptyFields");
     exit();
@@ -60,9 +59,8 @@ else {
     $to = $myEmail;
     $email_subject = "Contact form submission: $child";
     $email_body = "You have received a new request for enrollment. \n ".
-    "Fathers Name: $father \n ".
-    "Mothers Name: $mother \n ".
-    "Childs Name: $child \n ".
+    "Guardians Name: $guardian \n ".
+    "Child's Name: $child \n ".
     "Allergies Name: $allergies \n ".
     "Financial assistance needed: $financial \n ".
     "Email: $email_address \n ".
