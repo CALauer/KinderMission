@@ -20,8 +20,13 @@ Website overhaul
 * New Admin Panel
 * Form Authentication
 * Add Employment Opportunities
+* Button Implementation 
 
 ## Assigned Tasks
 * ~~Larger Navbar~~ 
 * ~~Form Adjustment~~ 
-* Map Implimentation
+* Map Implementation
+
+## Upcoming Events
+* Fall Festival
+* Christmas Event

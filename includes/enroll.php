@@ -10,6 +10,7 @@ $allergies = $_POST['allergies'];
 $startDate = $_POST['startDate']; 
 $financial = $_POST['financial']; 
 
+
 if (empty($guardian) || empty($email_address) || empty($child) || empty($financial) || empty($allergies) || empty($startDate))  {
         
     header("Location: ../view/enrollment.php?error=emptyFields");
@@ -45,7 +46,6 @@ else {
     $allergies = $_POST['allergies']; 
     $startDate = $_POST['startDate']; 
     $financial = $_POST['financial']; 
-    
     if (!preg_match(
     "/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/i", 
     $email_address))
@@ -56,10 +56,9 @@ else {
     
     {
     
-    $to = $myEmail;
-    $email_subject = "Contact form submission: $child";
-    $email_body = "You have received a new request for enrollment. \n ".
-    "Guardians Name: $guardian \n ".
+    $email_subject = "Enrollment Request: $child";
+    $email_body = "You have received a new enrollment request. \n ".
+    "Parent/Guardians Name:$guardian \n ".
     "Child's Name: $child \n ".
     "Allergies Name: $allergies \n ".
     "Financial assistance needed: $financial \n ".
@@ -74,7 +73,7 @@ else {
     $msg = "Thank you for your submission, you will receive an email shortly.";
     // $headers .= "Organization: KinderMission Academy\r\n"; 
     
-    mail($to,$email_subject,$email_body,$headers);
+    mail($myEmail,$email_subject,$email_body,$headers);
     mail($email_address, "Thanks!!", "Thank for your inquiry, someone will be in touch shortly.");
     //redirect to the 'thank you' page
     header("Location: ../view/enrollment.php?error=Success");
