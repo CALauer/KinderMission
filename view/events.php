@@ -17,11 +17,12 @@ if ($result->num_rows > 0) {
     echo 
     "<div class='event-card'>" . 
     "<div class='image'><img src='../uploads/$image' class='event-image' /></div>" .
-    "<div class='content'><ul><li class='event-title'>" . $row["title"] . "</li>" .
+    "<div class='content'>
+    <div class='event-header'><ul><li class='event-title'>" . $row["title"] . "</li>" .
     "<li class='event-user'>" . $row["username"] . "</li>" .
     "<li>" . $row["date"] . "</li>" .
-    "<li>" . $row["intro"] . "</li>" .
-    "<li>" . $row["intro"] . " <a href='eventview?id=".$row["id"]."'> " . "View More...</a></li></ul></div></div>";
+    "<li>" . $row["intro"] . "</li></ul></div>" .
+    "<div class='event-view-more'><a href='eventview?id=".$row["id"]."' class='event-button-view'>View More</a></div></div></div> ";
 
   }
   echo '</div>';

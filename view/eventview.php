@@ -9,15 +9,18 @@ require "../includes/header.php";
                     while($row = $result->fetch_assoc()) {
                     $image = $row['image'];
 
-                        echo "<div class='event-view-wrapper'>" .
-"<div><h2 class='content-h2'>" . $row["title"] . "</h1></div>" .
-"<div>Posted By: " . $row["username"] . "</div>" .
-"<div>Posted On: " . $row["date"] . "</div>" .
-"<div class=''><img src='../uploads/$image' class='event-image'/></div>" .
-"<div class=''><p>" . $row["content"] . 
-"</p></div></div>";
-}
-                }
+echo '<div class="event-view-wrapper">
+<div>
+<img src="../uploads/'.$row['image'].'" class="view-event-image" />
+</div>
+<div>
+<h1 class="content-h2">Fell Festival</h1>
+<p>' . $row['content'] . '</p>
+</div>
+</div>';
+
+    }
+                    }
 
     require "../includes/footer.php";
     ?>

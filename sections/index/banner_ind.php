@@ -4,7 +4,7 @@
             <h1 class="headerCatch-h1">KinderMission Academy</h1>
             <h1 class="headerCatch-h2">Play, Learn, Create</h1>
             <!-- <p>Childcare facility serving children from 6 weeks to 12 years old.</p> -->
-            <button class="enroll-btn">Enroll Now</button>
+            <a href="../view/enrollment.php" class="enroll-btn">Enroll Now</a>
         </div>
     </div>
 </header>

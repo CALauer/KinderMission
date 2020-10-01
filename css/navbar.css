@@ -1,138 +1,30 @@
-.nav {
+
+  #nav {
     display: grid;
-    height: 80px;
+    margin: 0;
+    height: 120px;
     width: 100%;
-    grid-template-areas: 'auto auto';
-    grid-template-columns: 50% 50%;;
-    justify-content: left;
+    grid-template-columns: 100%;
+    grid-template-rows: 80px 40px;
     position: fixed;
     background: white;
-}
-.nav > div:nth-child(1){
-    display: grid;
-    justify-content: left;
-    width: 80%;
-}
-.nav > div:nth-child(2){
-    display: grid;
-    width: 80%;
-    justify-content: right;
-    align-content: center;
-}
-
-.nav ul{
-    display: flex;
-    list-style-type: none;
+  
+  }
+  #nav ul {
+      display: flex;
+      height: 100%;
+  }
+  #nav ul li{
+      display: grid;
     height: 100%;
     align-content: center;
-    align-self: center;
     align-items: center;
-}
-.nav ul li a{
-    color: rgb(29, 117, 187);
-    text-decoration: none;
-    font-weight: bold;
-    margin-left: 30px;
-    margin-right: 30px;
-    font-size: 1.2em;
-}
-.nav ul li a:hover{
-    color: rgb(140, 198, 63);
-}
-.nav > div:nth-child(2) ul li{
-    justify-content: right;
-    justify-items: right;
-    margin: 0;
-}
-.nav > div:nth-child(2) ul{
-    display: grid;
-    justify-content: right;
-    justify-items: right;
-}
-
-.phone {
-    display: inline-grid;
-    margin-right: 10px;
-    width: 14px;
-    vertical-align: middle;
+    align-self: center;
   }
-  .logo-menu {
-    width: 90px;
-    margin-right: 50px;
-  }
-#contact-nav {
-      display: grid;
-}
-.mobile-menu{
+.menu-hidden {
     display: none;
 }
-#hamburger-menu {
-    display: none;
-}
-  @media only screen and (max-width: 1400px) {
-    .nav {
-        display: grid;
-        height: 50px;
-        width: 100%;
-        grid-template-areas: 'auto';
-        grid-template-columns: 100%;;
-        align-content: center;
-        position: fixed;
-        background: white;
-    }
-    .nav > div:nth-child(1){
-        display: none;
-    }
-    .nav > div:nth-child(2){
-        width: 90%;
-    }
-    #contact-nav {
-        display: none;
-    }
-    .nav > div:nth-child(2) ul li{
-        justify-content: right;
-        justify-items: right;
-        margin: 0;
-    }
-    .nav > div:nth-child(2) ul{
-        display: grid;
-        justify-content: right;
-        justify-items: right;
-        width: 100%;
-
-    }
-    .hamburger-menu {
-        display: grid;
-        width: 30px;
-    }
-    #hamburger-menu {
-        display: grid;
-    }
-  .mobile-menu {
-    display: grid;
-    position: absolute;
-    margin-top: -500px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background: rgb(29, 117, 187);
-    z-index: 1;
-    grid-template-columns: 100%;
-    justify-content:right;
-    justify-self: right;
-    width: 100%;
-    right: 0;
-  }
-  .mobile-menu > div{
-    display: grid;
-    width: 90%;
-    justify-content: right;
-  }
-  .mobile-menu ul{
-    list-style-type: none;
-    color: white;
-  }
-  .mobile-menu a{
-    text-decoration: none;
-    color: white;
-  }
+a:hover .menu-hidden {
+ display: block;
+ color: red;
 }

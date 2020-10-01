@@ -14,9 +14,6 @@
 }
 .event-card {
     display: grid;
-    justify-self: center;
-    justify-content: center;
-    justify-items: center;
     grid-template-areas: 'image' 'content';
     grid-template-rows: 216px auto;
     width: 384px;
@@ -25,16 +22,43 @@
 .event-card .image {
     display: grid;
     grid-area: image;
-
     }
 .event-card .content {
     display: grid;
     grid-area: content;
-    justify-content: left;
+    grid-template-areas: 'event-header''view-more';
+    grid-template-rows: 1fr 40px;
     width: 100%;
     height: 250px;
     padding: 3%;
     }
+.event-header {
+    grid-area: event-header;
+    width: 100%;
+}
+.event-view-more {
+    grid-area: view-more;
+    width: 100%;
+    height: 40px;
+    align-content: center;
+    justify-content: center;
+
+}
+.event-button-view {
+    display: grid;
+    margin: auto;
+    background: rgb(29, 117, 187);
+    text-decoration: none;
+    color: white;
+    width: 200px;
+    height: 40px;
+    justify-content: center;
+    align-content: center;
+
+}
+.event-button-view:hover {
+    background: rgb(140, 198, 63);
+}
 .event-title {
     color: rgb(29, 117, 187);
     font-weight: bold;
@@ -58,4 +82,17 @@
     padding: 0;
     margin: 0;
     }
-
+.event-view-wrapper {
+    display: grid;
+    justify-self: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 120px;  
+}
+.event-view-wrapper > div{
+    width: 50%;
+}
+.view-event-image {
+    width: 100%;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .5);
+}

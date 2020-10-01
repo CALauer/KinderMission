@@ -10,10 +10,10 @@
 .enrollment-wrapper > div:nth-child(1){
     display: grid;
     grid-area: col1;
-    align-content: flex-start;
+    align-content: center;
     justify-content: center;
     justify-self: center;
-    width: 50%;
+    width: 80%;
     margin: 0;
     padding: 6%;
 }

@@ -298,33 +298,7 @@ input[type='email'] {
 }
 
 
-.event-view-wrapper {
-  display: grid;
-    padding: 3%;
 
-
-
-  width: 50%;
-  align-content: flex-start;
-  align-items: flex-start;
-  color: rgb(59, 59, 59);
-  font-size: .9em;
-  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, .5);
-  margin-top: 50px;
-  line-height: 30px;
-}
-.event-view-wrapper p{
-  display: grid;
-  padding-top: 50px;
-
-  line-height: 30px;
-}
-.event-view-wrapper > div{
-  width: 100%;
-  align-content: flex-start;
-  align-items: flex-start;
-  align-items: flex-start;
-}
 .title {
   grid-area: title;
   align-content: flex-start;
@@ -504,6 +478,7 @@ h3 {
 /* Buttons */
 
 .enroll-btn {
+  display: grid;
   margin-top: 20px;
   width: 130px;
   height: 45px;
@@ -514,6 +489,8 @@ h3 {
   outline: none;
   font-weight: bold;
   text-transform: uppercase;
+  text-decoration: none;
+  align-content: center;
 }
 
 .learn-btn {
