@@ -2,14 +2,11 @@
 include '../includes/config.php'; 
 require "../includes/header.php"; 
 ?>
-<header>
     <div id="header_wrapper">
         <div class="header-image-academics">
-            <h1 class="headerCatch-h1">Academic Excellence</h1>
             <h2 class="headerCatch-h2">Play, learn, create</h2>
         </div>
     </div>
-</header>
 <div class="content-wrapper-odd">
 
     <div>
@@ -26,7 +23,7 @@ require "../includes/header.php";
     </div>
 
 </div>
-<div class="content-wrapper-odd">
+<div class="content-wrapper-even">
     <div>
         <img src="../KinderMission-assets/puzzle.png" alt="academia" class="content-img">
     </div>
@@ -68,7 +65,7 @@ require "../includes/header.php";
 </div>
 <div class="content-wrapper-odd">
     <div>
-        <h1 class="content-h1">Language Development</h1>
+        <h1 class="content-h1">Language Growth</h1>
         <h2 class="content-h2">Less Jibberish</h2>
         <p>The language development center gives children the opportunity to relax and take some much needed quiet
             time for themselves throughout the day. In this center we encourage literacy skills through a diverse

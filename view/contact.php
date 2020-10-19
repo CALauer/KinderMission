@@ -3,26 +3,21 @@ include '../includes/config.php';
 require "../includes/header.php"; 
 ?>
 
-<div class="contact-wrapper-sp">
-    <div>
-        <h2>Contact Us</h2>
-        <h3>How can we help?</h3>
-        We are dedicated to serving families and doing everything we can to assist. Feel for to reach out if you have
-        ay questions or concerns.
-        <h2>Address</h2>
+<div class="content-wrapper-sp">
+    <h2 class="content-sp-h1">Contact Us</h2> <br />
+        <h3 class="content-sp-h3">Address</h3>
         4065 Premier Drive <br />
-        High Point, NC 27265
-        <h2>Phone</h2>
+        High Point, NC 27265 
+        <br />
+        <br />
+        <h3 class="content-sp-h3">Phone</h3>
         (336)-886-0121
-        <h2>Email</h2>
+        <br />
+        <br />
+        <h3 class="content-sp-h3">Email</h3>
         kindermissionacademy@gmail.com
-    </div>
-    <div>
-
-    </div>
-    <div>
-    </div>
 </div>
+
 <?php 
 require "../includes/footer.php"; 
 ?>

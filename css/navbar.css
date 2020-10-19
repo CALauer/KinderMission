@@ -2,29 +2,216 @@
   #nav {
     display: grid;
     margin: 0;
-    height: 120px;
     width: 100%;
-    grid-template-columns: 100%;
-    grid-template-rows: 80px 40px;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 70px;
     position: fixed;
-    background: white;
-  
+    background: rgba(48, 179, 255, .9);
+    top: 0px;
+    z-index: 2;
   }
-  #nav ul {
+/* Left Column Nav */
+  #nav div:nth-child(1) {
+    display: grid;
+    width: 100%;
+  margin: 0;
+  }
+  /* Right Column Nav */
+  #nav div:nth-child(2) {
+    display: grid;
+    justify-content: right;
+    text-align: right;
+    align-content: center;
+    width: 100%;
+    margin: 0;
+  }
+
+.nav-ul {
       display: flex;
       height: 100%;
+      margin: 0;
   }
-  #nav ul li{
-      display: grid;
+.nav-ul li{
+    display: grid;
+    margin: 0;
     height: 100%;
     align-content: center;
     align-items: center;
     align-self: center;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+.nav-links {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: 500;
+}
+.nav-links:hover {
+  color: rgb(140, 198, 63);
+}
+ #nav .nav-ul li ul li {
+  display: grid;
+  margin: 0;
+  padding: 10px 30px;
+  }
+
+  .nav-ul li ul li:hover{
+    box-shadow: -4px 0px 0px 0px rgb(140, 198, 63);
+    cursor: pointer;
   }
 .menu-hidden {
+    display: grid;
+    position: fixed;
+    grid-template-columns: 1fr;
+    top: -500px;
+    margin: 0;
+    justify-items: left;
+    justify-content: left;
+    background: rgb(29, 117, 187);
+    color: white;
+    border-top: 4px solid rgb(140, 198, 63);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, .5);
+  }
+
+  .menu-hidden li{
+    display: grid;
+    margin: 0;
+    padding: 10px 10px;
+  }
+  .nav-location li a {
+    margin: 0;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+  }
+  .logo {
+    width: 100px;
+    margin-right: 100px;
+  }
+.nav-location {
+  display: grid;
+  margin: 0;
+  justify-content: right;
+  justify-items: right;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+.nav-location li{
+  display: flex;
+  margin: 0;
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.nav-location li img{
+  display: inline-block;
+  margin: 0; 
+  padding-right: 20px;
+}
+.enroll-btn-nav {
+  display: grid;
+  width: 110px;
+  height: 35px;
+  background-color: rgb(140, 198, 63);
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, .2);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  align-content: center;
+  border-radius: 50px;
+  font-size: .8em;
+  color: white;
+}
+.enroll-btn-nav:hover {
+  transform: scale(.95);
+ color: white;
+}
+.mobile-menu-icon {
+display: none;
+}
+.mobile-logo {
     display: none;
 }
-a:hover .menu-hidden {
- display: block;
- color: red;
+.mobile-drop {
+  display: none;
+}
+@media only screen and (max-width: 1064px) {
+  #nav {
+    display: grid;
+    margin: 0;
+    width: 100%;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 60px;
+    position: fixed;
+    /* background: rgb(29, 117, 187); */
+    background: rgb(29,117,187);
+    background: linear-gradient(90deg, rgba(29,117,187,1) 5%, rgba(29,162,187,1) 50%, rgba(29,117,187,1) 95%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, .2);
+  }
+  .nav-ul, .nav-location, .enroll-btn-nav, .nav-links {
+    display: none;
+  }
+  .mobile-menu-icon {
+    display: grid;
+    margin: 0;
+    width: 100%;
+    list-style-type: none;
+  }
+  .menu-icon {
+    display: grid;
+    margin: 0;
+    height: 30px;
+    padding-right: 20px;  
+
+  }
+  .mobile-logo {
+    display: grid;
+    margin: 0;
+    list-style-type: none;
+    align-self: center;
+    justify-self: left;
+    padding-left: 20px;  
+  }
+  .mobile-drop {
+    display: grid;
+    top: -500px;
+    position: fixed;
+    margin: 0;
+    justify-content: right;
+    align-content: flex-start;
+    width: 100%;
+    height: auto;
+    background: rgb(140,198,63);
+    background: linear-gradient(90deg, rgba(140,198,63,.95) 0%, rgba(14,221,128,.9) 50%, rgba(140,198,63,.95) 90%);
+    margin-top: 60px;
+  }
+  .mobile-drop ul {
+    display: grid;
+    margin: 0;
+    padding-top:20px;
+    padding-bottom:20px;
+    list-style-type: none;
+    width: 100%;
+  }  
+
+  .mobile-drop ul li {
+    list-style-type: none;
+    justify-content: right;
+    display: grid;
+    width: 100%;
+    padding: 10px 20px;
+  }   
+   .mobile-drop ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+  } 
+  .mobile-drop ul li a:hover{
+    color: rgb(29, 117, 187);
+  } 
 }

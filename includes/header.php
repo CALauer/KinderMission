@@ -8,14 +8,12 @@ session_start();
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/global.css" />
+
     <link rel="stylesheet" href="../css/navbar.css" />
-    <link rel="stylesheet" href="../css/index/index.css" />
-    <link rel="stylesheet" href="../css/enrollment/enrollment.css" />
-    <link rel="stylesheet" href="../css/about/about.css" />
-    <link rel="stylesheet" href="../css/contact/contact.css" />
-    <link rel="stylesheet" href="../css/events/events.css" />
+
+    <link rel="stylesheet" href="../css/svg-animations.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <!-- <link rel="shortcut icon" href="../../portfolio_images-assets/cl_logo_big.png" type="image/x-icon" /> -->
+    <link rel="shortcut icon" href="../KinderMission-assets/KMA_Logo_0.png" type="image/x-icon" />
     <title>KinderMission Academy</title>
 </head>
 
@@ -29,20 +27,48 @@ session_start();
             while($row = $result->fetch_assoc()) {
         $id = $row["id"];
 
-            echo '
-            <div id="nav">
+            echo '            <div id="nav">
             <div>
-              <ul>
-                <li><a href="#" class="show-menu">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Admin</a>
+            <ul class="mobile-logo">
+            <li><img src= "../KinderMission-assets/KMA_Logo.svg" class="logo"  alt="logo" > </li>
+            </ul>
+              <ul class="nav-ul">
+              <li><a href="../view/index" class="nav-links"nav-links">Home</a></li>
+              <li><a href="../view/about"  class="show-menu nav-links">About Us</a>
+                          <ul class="menu-hidden">
+                          <li><a href="../view/about" class="nav-links">Our History</a></li>
+                          <li><a href="../view/staff" class="nav-links">Our Staff</a></li>
+                          <li><a href="../view/scholarships" class="nav-links">Scholarships</a></li>
+                              <li><a href="../view/careers" class="nav-links">Careers</a></li>
+                          </ul></li>
+                <li><a href="../view/academics" class="nav-links">Academics</a></li>
+                <li><a href="../view/events"  class="nav-links">Events</a></li>
+                <li><a href="../view/contact"  class="nav-links">Contact</a></li>
+                <li><a href="../view/enrollment"  class="enroll-btn-nav">Enroll Now</a></li>
+                </ul>
+                </div>
+                <div>
+                <ul class="mobile-menu-icon">
+                <li>
+                <img src="../KinderMission-assets/hamburger-menu.svg" id="hamburger-menu" alt="hamburger-menu-icon" class="menu-icon" />
+                </li>
+                </ul>
+
+              </div>
+            </div>
+            <div class="mobile-drop">
+            <ul>
+            <li><a href="../view/index">Home</a></li>
+            <li><a href="../view/enrollment">Enroll Now</a></li>
+            <li><a href="../view/about">About Us</a></li>
+            <li><a href="../view/academics">Academics</a></li>
+            <li><a href="../view/scholarships">Scholarships</a></li>
+            <li><a href="../view/careers">Careers</a></li>
+            <li><a href="../view/events">Events</a></li>
+            <li><a href="../view/contact">Contact Us</a></li>
             </ul>
             </div>
-            <div class="menu-hidden">
-            <ul><li>Shown</li><ul>
-            </div>
-          </div>';
+';
             }
         }
     }
@@ -50,16 +76,46 @@ session_start();
         else {
             echo '
             <div id="nav">
-            <div>
-              <ul>
-                <li><a href="#" class="show-menu">Home</a></li>
-                <li><a href="#" class="menu-hidden">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Admin</a>
-            </ul>
+              <div>
+              <ul class="mobile-logo">
+              <li><img src= "../KinderMission-assets/KMA_Logo.svg" class="logo"  alt="logo" > </li>
+              </ul>
+                <ul class="nav-ul">
+                <li><a href="../view/index" class="nav-links"nav-links">Home</a></li>
+                <li><a href="../view/about"  class="show-menu nav-links">About Us</a>
+                            <ul class="menu-hidden">
+                            <li><a href="../view/about" class="nav-links">Our History</a></li>
+                            <li><a href="../view/staff" class="nav-links">Our Staff</a></li>
+                            <li><a href="../view/scholarships" class="nav-links">Scholarships</a></li>
+                                <li><a href="../view/careers" class="nav-links">Careers</a></li>
+                            </ul></li>
+                  <li><a href="../view/academics" class="nav-links">Academics</a></li>
+                  <li><a href="../view/events"  class="nav-links">Events</a></li>
+                  <li><a href="../view/contact"  class="nav-links">Contact</a></li>
+                  <li><a href="../view/enrollment"  class="enroll-btn-nav">Enroll Now</a></li>
+                  </ul>
+                  </div>
+                  <div>
+                  <ul class="mobile-menu-icon">
+                  <li>
+                  <img src="../KinderMission-assets/hamburger-menu.svg" id="hamburger-menu" alt="hamburger-menu-icon" class="menu-icon" />
+                  </li>
+                  </ul>
 
-          </div>
-          </div>
+                </div>
+              </div>
+              <div class="mobile-drop">
+              <ul>
+              <li><a href="../view/index">Home</a></li>
+              <li><a href="../view/enrollment">Enroll Now</a></li>
+              <li><a href="../view/about">About Us</a></li>
+              <li><a href="../view/academics">Academics</a></li>
+              <li><a href="../view/scholarships">Scholarships</a></li>
+              <li><a href="../view/careers">Careers</a></li>
+              <li><a href="../view/events">Events</a></li>
+              <li><a href="../view/contact">Contact Us</a></li>
+              </ul>
+              </div>
 ';
         }
     

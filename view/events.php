@@ -2,7 +2,7 @@
 include '../includes/config.php'; 
 include '../includes/header.php';
 
-echo '<div class="event-wrapper"><h2 class="events-h2">Events</h2>';
+echo '<div class="event-wrapper"><h2 class="events-h2">Events</h2></div>';
 if ($conn->connect_error) {
   die("Connection failed:" . $conn->connect_error);
 }
@@ -29,7 +29,7 @@ if ($result->num_rows > 0) {
 
 
 } else {
-  echo "<div class='event-wrapper'><h1>No Events Added</h1></div>";
+  echo "<div class='event-view-wrapper'><h1>There are currently no events listed</h1></div>";
 
 }
 $conn->close();

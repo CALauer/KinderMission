@@ -6,17 +6,7 @@ require "../includes/header.php";
     <h2 class="content-enroll-h2">Enrollment is open</h2>
 </div> -->
 <div class="enrollment-wrapper">
-    <div>
-        <h2 class="content-enroll-h2">Accepting Enrollments</h2>
-        <p>At KMA, we accept all children and families regardless of race, culture, economic status, color, ethnicity,
-            religion, abilities, and language. We aim to teach and exemplify diversity within our classrooms on a daily
-            basis. All children between the ages of 6 weeks and 12 years of age are welcomed regardless of the
-            classifications stated above</p>
-        <h2 class="content-enroll-h2">What to expect</h2>
-        <p>Upon submission of the request, you will receive an automated email, validating that you
-            have submitted the request. That email will include a fact sheet with additional information
-            on how to schedule a tour of our facility.
-    </div>
+
     <div>
         <form class="enrollment-form" action="../includes/enroll.php" method="post">
             <h3>Enrollment Request</h3>

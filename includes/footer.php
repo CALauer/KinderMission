@@ -12,7 +12,7 @@
                 <li><a href="../view/academics">Our Curriculum</a></li>
                 <li><a href="../view/about">Our Mission</a></li>
                 <li><a href="../view/about">Our Staff</a></li>
-                <li><a href="../view/programs">Our Programs</a></li>
+                <li><a href="../view/careers">Careers</a></li>
                 <li><a href="../view/scholarships">KinderMission Foundation</a></li>
                 <li><a href="../view/events">Events</a></li>
             </ul>

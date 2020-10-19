@@ -1,0 +1,82 @@
+/* Index Classes */
+.st0{
+    fill:url(#SVGID_1_);
+  }
+  .st1{
+      fill:url(#SVGID_1_);
+      fill-opacity: .08;
+      transform: translate(0px, 150%);
+      animation: flow 20s infinite;
+      animation-timing-function: linear;
+      fill: #000;
+    }
+    .st2 {
+      fill-opacity: .08;
+      transform: translate(0px, 150%);
+      animation: flow 16s infinite;
+      animation-timing-function: linear;
+      fill: #000;
+    
+    }
+    .st3 {
+      fill-opacity: .08;
+      transform: translate(0px, 150%);
+      animation: flow 26s infinite;
+      animation-timing-function: linear;
+      fill: #000;
+    
+    }
+    .st4 {
+      fill-opacity: .08;
+      transform: translate(0px, 150%);
+      animation: flow 15s infinite;
+      animation-timing-function: linear;
+      fill: #000;
+    }
+    .st5 {
+      fill-opacity: .08;
+      transform: translate(0px, 150%);
+      animation: flow 17s infinite;
+      animation-timing-function: linear;
+      fill: #000;
+    }
+    .st6 {
+      fill-opacity: .08;
+      transform: translate(0px, 150%);
+      animation: flow 14s infinite;
+      animation-timing-function: linear;
+      fill: #000;
+    }
+    .st7 {
+      fill-opacity: .08;
+      transform: translate(0px, 150%);
+      animation: flow 13s infinite;
+      animation-timing-function: linear;
+      fill: #000;
+    }
+    .st8 {
+      fill-opacity: .08;
+      transform: translate(0px, 150%);
+      animation: flow 9s infinite;
+      animation-timing-function: linear;
+      fill: #000;
+    }
+    .st9 {
+      fill-opacity: .08;
+      transform: translate(0px, 150%);
+      animation: flow 16s infinite;
+      animation-timing-function: linear;
+      fill: #000;
+    }
+    .st10 {
+      fill: #fff;
+    }
+/* Key Frames */
+@keyframes flow {
+  0% {
+    transform: translate(0px, 100%)
+  }
+  100% {
+    transform: translate(0px, -100%)
+  }
+}
