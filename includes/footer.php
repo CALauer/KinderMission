@@ -3,7 +3,7 @@
 <footer>
     <div id="footer">
         <div>
-            <img src="../KinderMission-assets/KMA.png" alt="KMA-Logo" class="footer-logo" /><br />
+            <img src="../KinderMission-assets/KMA_Logo.png" alt="KMA-Logo" class="footer-logo" /><br />
         </div>
         <div>
             <h3>For Parents</h3>
@@ -38,10 +38,10 @@
             </ul>
         </div>
     </div>
-    </div>
-    <p class="footer-p">© KinderMission Academy 2020 <br />Designed and Developer by <a href="https://chrislauer.net">
-            Chris Lauer</a><br /><a href="../view/login.php">Admin Login</a></p>
     <div>
+    <p class="footer-p">© KinderMission Academy 2020 <br />Designed and Developed by <a href="https://chrislauer.net">
+            Chris Lauer</a><br /><a href="../view/login.php">Admin Login</a></p>
+    </div>
 </footer>
 </body>
 

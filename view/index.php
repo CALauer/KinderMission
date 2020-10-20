@@ -236,7 +236,7 @@ require "../includes/header.php";
 		<path class="st10" d="M1920,699.3c0,0-230.1,49.6-489.8,49.6S777.4,615.6,478.8,615.6S0,699.3,0,699.3V1080h1920V699.3z"/>
 	</g>
 </svg>
-
+</div>
 
 <div class="main_wrapper_two_col">
 		<div>
@@ -245,12 +245,12 @@ require "../includes/header.php";
 			<!-- <p>Childcare facility serving children from 6 weeks to 12 years old.</p> -->
 			<ul>
 			<li><a href="../view/enrollment.php" class="enroll-btn">Enroll Now</a></li>
-			<li><a href="../view/enrollment.php" class="enroll-btn">Enroll Now</a></li>
+			<li><a href="../view/enrollment.php" class="enroll-btn">Donate</a></li>
 			</ul>
 		</div>
 		<div id="index-form">
 			<form class="enrollment-form-index" action="../includes/enroll.php" method="post">
-				<h3>Enrollment Request</h3>
+				<h4 class="white">Enrollment Request</h4>
 				<?php 
 			if (isset($_GET['error'])) {
 				if ($_GET['error'] == "emptyFields") {
@@ -300,59 +300,59 @@ require "../includes/header.php";
 
 <!-- Caregivers -->
 <div class="feature-content">
-	<h1 class="heading-one">Some of our best features</h1>
+	<h1 class="heading-one">Why You Should Choose Us</h1>
 		<div class="three-column-auto">
 				<div>
 					<div>
-						<img src="../images/education.svg"  alt="grad_hat" />
+						<img src="../images/learning.svg"  alt="grad_hat"  class="mini-icons" />
 					</div>
 					<div>
-						<h4>Advanced Learning Cirriculum<h4>
-							<p>This is just a test. THis is more of the same thing. Enjoys!This is just a test. THis is more of the same thing. Enjoys!This is just a test. THis is more of the same thing. Enjoys!</p>
-					</div>
-				</div>
-				<div>
-					<div>
-						<img src="../images/education.svg"  alt="grad_hat" />
-					</div>
-					<div>
-						<h4>Health and Welfare<h4>
-							<p>This is just a test. THis is more of the same thing. Enjoys!This is just a test. THis is more of the same thing. Enjoys!This is just a test. THis is more of the same thing. Enjoys!</p>
+						<h4 class="blue">Advanced Cirriculums</h4>
+							<p>Our new and improved learning cirriculum will challenge your child without them even knowing, and they will be doing it with a smile on their face.</p>
 					</div>
 				</div>
 				<div>
 					<div>
-						<img src="../images/education.svg"  alt="grad_hat" />
+						<img src="../images/health.svg"  alt="care" class="mini-icons" />
 					</div>
 					<div>
-						<h4>Scholarship Opportunities<h4>
-							<p>This is just a test. THis is more of the same thing. Enjoys!This is just a test. THis is more of the same thing. Enjoys!This is just a test. THis is more of the same thing. Enjoys!</p>
-					</div>
-				</div>
-				<div>
-					<div>
-						<img src="../images/education.svg"  alt="grad_hat" />
-					</div>
-					<div>
-						<h4>Careing Staff<h4>
-							<p>This is just a test. THis is more of the same thing. Enjoys!This is just a test. THis is more of the same thing. Enjoys!This is just a test. THis is more of the same thing. Enjoys!</p>
+						<h4 class="blue">Health and Welfare</h4>
+							<p>Your childs health and welfare is always our main priority. We ranked "superior" on our latest sanitation classification</p>
 					</div>
 				</div>
 				<div>
 					<div>
-						<img src="../images/education.svg"  alt="grad_hat" />
+						<img src="../images/education.svg"  alt="grad_hat" class="mini-icons" />
 					</div>
 					<div>
-						<h4>Career Opportunities<h4>
-							<p>This is just a test. THis is more of the same thing. Enjoys!This is just a test. THis is more of the same thing. Enjoys!This is just a test. THis is more of the same thing. Enjoys!</p>
+						<h4 class="blue">Scholarship Opportunities</h4>
+							<p>Scholarship opportunities are available through our non-profit organization. You can find more information <a href="">Here.</a></p>
 					</div>
 				</div>
 				<div>
 					<div>
-						<img src="../images/education.svg"  alt="grad_hat" />
+						<img src="../images/wecare.svg"  alt="grad_hat" class="mini-icons" />
 					</div>
 					<div>
-						<h4>Extra Ciricular<h4>
+						<h4 class="blue">Professional Staff</h4>
+							<p>Our staff are more than qualified, extremely caring and considerate. Our team is well trained and ready to provide your child with the best experience possible.</p>
+					</div>
+				</div>
+				<div>
+					<div>
+						<img src="../images/career.svg"  alt="grad_hat" class="mini-icons" />
+					</div>
+					<div>
+						<h4 class="blue">Career Opportunities</h4>
+							<p>KinderMission Academy is proud to be a part of the community and contribute by offering various employment opportunities as well internship opportunities for those interested in the field.</p>
+					</div>
+				</div>
+				<div>
+					<div>
+						<img src="../images/education.svg"  alt="grad_hat" class="mini-icons" />
+					</div>
+					<div>
+						<h4 class="blue">Extra Curricular</h4>
 							<p>This is just a test. THis is more of the same thing. Enjoys!This is just a test. THis is more of the same thing. Enjoys!This is just a test. THis is more of the same thing. Enjoys!</p>
 					</div>
 				</div>
@@ -360,7 +360,8 @@ require "../includes/header.php";
 		</div>
 </div>
 	</div>
-<div class="green-content">
+	<div class="green-content">
+	
 	<div>
 		<img src="../KinderMission-assets/academics.png" alt="academics" class="img-sec"/>
 	</div>
@@ -371,7 +372,21 @@ require "../includes/header.php";
 			sed at iure fugiat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
 			Voluptatem porro quibusdam, suscipit nulla assumenda harum expedita 
 			sed at iure fugiat.</p>
+			<a href="#" class="enroll-btn">Learn More</a>
 	</div>
+</div>
+<div id="image-gallery" class="image-gallery-wrapper">
+	<h2 class="blue">Image Gallery</h2>
+	<p>Laboriosam officia tempora cum aspernatur pariatur quaerat quas aliquam enim repellendus incidunt nostrum in quod, quae dolor, sint error tenetur provident.
+	</p>
+	<div class="three-column-auto">
+	<div><img src="../KinderMission-assets/afterschool.png" alt="test" class="img-sec" /></div>
+	<div><img src="../KinderMission-assets/afterschool.png" alt="test" class="img-sec" /><br />
+	</div>
+	<div><img src="../KinderMission-assets/afterschool.png" alt="test" class="img-sec" /></div>
+	</div>
+</div>
+
 </div>
 <?php 
 include '../includes/footer.php'; 

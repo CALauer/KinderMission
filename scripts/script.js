@@ -14,7 +14,7 @@ $('#hamburger-menu').click('click', function() {
 $('.show-menu').on('mouseover', function() {
 	console.log('Hovered')
 	x = $('.menu-hidden');
-	x.css({top: '80px'});
+	x.css({top: '70px'});
 })
 
 $('.menu-hidden').on('mouseleave', function() {

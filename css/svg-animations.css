@@ -54,6 +54,10 @@
       animation-timing-function: linear;
       fill: #000;
     }
+    /* .st7:hover, .st1:hover, .st2:hover, .st3:hover, .st4:hover, .st5:hover, .st6:hover, .st8:hover, .st9:hover {
+      fill-opacity: 1;
+      fill: rgb(0, 247, 0);
+    } */
     .st8 {
       fill-opacity: .08;
       transform: translate(0px, 150%);
@@ -76,7 +80,8 @@
   0% {
     transform: translate(0px, 100%)
   }
+
   100% {
-    transform: translate(0px, -100%)
+    transform: translate(0px, -150%)
   }
 }
