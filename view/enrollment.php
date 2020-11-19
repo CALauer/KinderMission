@@ -4,7 +4,6 @@ require "../includes/header.php";
 ?>
 
 
-	<!-- CALL TO ACTION -->
 	<section class="enrollment-page">
         <div class="enrollment-page-interior">
     <div class="two-columns" id="index-form">

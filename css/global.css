@@ -388,8 +388,8 @@ footer {
 }
 
 .enrollment-form-index {
-  min-width: 250px;
-  max-width: 400px;
+  min-width: 200px;
+  max-width: 80%;
   margin: 0;
   padding: 20px;
   margin-bottom: 50px;
@@ -474,6 +474,7 @@ footer {
     display: none;
     -ms-overflow-style: none;
   }
+
   .align-self-center-column {
     display: grid;
     justify-self: center;
@@ -481,7 +482,7 @@ footer {
     align-self: center;
     width: 96%;
   }
-  #index-form, .st10 {
+ .st10 {
     display: none;
   }
   .footer-column {
@@ -507,6 +508,7 @@ footer {
  
   .two-columns {
     display: grid;
+    height: 100%;
     grid-template-columns: 1fr;
     justify-items: center;
     align-items: flex-start;
