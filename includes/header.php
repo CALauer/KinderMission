@@ -8,9 +8,7 @@ session_start();
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/global.css" />
-
     <link rel="stylesheet" href="../css/navbar.css" />
-
     <link rel="stylesheet" href="../css/svg-animations.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../KinderMission-assets/KMA_Logo_0.png" type="image/x-icon" />
@@ -30,7 +28,6 @@ session_start();
             echo '            <div id="nav">
             <div>
             <ul class="mobile-logo">
-            <li><img src= "../KinderMission-assets/KMA_Logo.svg" class="logo"  alt="logo" > </li>
             </ul>
               <ul class="nav-ul">
               <li><a href="../view/index" class="nav-links"nav-links">Home</a></li>
@@ -78,7 +75,6 @@ session_start();
             <div id="nav">
               <div>
               <ul class="mobile-logo">
-              <li><img src= "../KinderMission-assets/KMA_Logo.svg" class="logo"  alt="logo" > </li>
               </ul>
                 <ul class="nav-ul">
                 <li><a href="../view/index" class="nav-links"nav-links">Home</a></li>

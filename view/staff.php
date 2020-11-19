@@ -3,13 +3,24 @@ include '../includes/config.php';
 require "../includes/header.php"; 
 ?>
 
-<section>
-    <div class="sc-content-wrapper">
-        <div>
-            <h1 class="content-sp-h1">This Page Is Under Construction</h1>
-        </div>
-</section>
 
+	<!-- CALL TO ACTION -->
+	<section class="blank-page">
+		<div class="one-column">
+        <h2>This page is under development</h2>
+
+
+            </div>
+            <div></div>
+        </div>
+	</section>
 <?php 
-require "../includes/footer.php"; 
+include '../includes/footer.php'; 
 ?>
+
+
+
+
+
+
+

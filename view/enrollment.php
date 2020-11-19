@@ -2,10 +2,25 @@
 include '../includes/config.php'; 
 require "../includes/header.php"; 
 ?>
-<!-- <div class="header_Wrapper_enroll">
-    <h2 class="content-enroll-h2">Enrollment is open</h2>
-</div> -->
-<div class="enrollment-wrapper">
+
+
+	<!-- CALL TO ACTION -->
+	<section class="blank-page">
+		<div class="one-column">
+        <h2>This page is under development</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="enrollment-wrapper">
 
     <div>
         <form class="enrollment-form" action="../includes/enroll.php" method="post">
@@ -56,6 +71,10 @@ require "../includes/header.php";
         </form>
     </div>
 </div>
+</div> -->
+            <div></div>
+        </div>
+	</section>
 <?php 
 require "../includes/footer.php"; 
 ?>

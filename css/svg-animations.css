@@ -75,6 +75,16 @@
     .st10 {
       fill: #fff;
     }
+    .page_bg {
+      fill:url(#SVGID_1_);
+    }
+    .circle1{opacity:0.5;}
+    .circle2{fill:url(#SVGID_2_);
+      opacity:0.5;}
+    .circle3{fill:url(#SVGID_3_);
+      opacity:0.5;}
+    .circle4{fill:url(#SVGID_4_);
+      opacity:0.5;}
 /* Key Frames */
 @keyframes flow {
   0% {

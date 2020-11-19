@@ -1,9 +1,9 @@
 <?php require '../includes/header.php'; ?>
 
 <body>
-    <div class="sc-content-wrapper">
-        <div id="form_wrapper">
-            <h3>Admin Login</h3>
+    <div class="blank-page">
+        <div class="login_form">
+            <h4>Admin Login</h4>
             <form action="../includes/login_inc.php" method="post">
                 <div>
                     <input type="text" name="emailUsername" class="input_field" placeholder="username">

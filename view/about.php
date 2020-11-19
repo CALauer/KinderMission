@@ -2,32 +2,108 @@
 include '../includes/config.php'; 
 require "../includes/header.php"; 
 ?>
+<main>
+    <!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        viewBox="0 0 1920 500" style="enable-background:new 0 0 1920 500;" xml:space="preserve" class="page-header-bg" preserveAspectRatio="none">
 
-<div class="content-wrapper-sp">
-        <h1 class="content-sp-h1">Play, Learn, Create</h1>
-        <h2 class="content-sp-h2">Bright Futures</h2>
-        <p>At KMA we believe students will play, learn, and create bright futures. We are more than just educators,
+        <g>
+            <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="632.6205" y1="1063.5378" x2="1542.6022" y2="-512.5965">
+                <stop  offset="0" style="stop-color:#3FA9F5"/>
+                <stop  offset="0.5" style="stop-color:#00FFFF"/>
+                <stop  offset="1" style="stop-color:#7AC943"/>
+            </linearGradient>
+            <rect class="page_bg" width="1920" height="993"/>
+        </g>
+        <g class="circle2">
+            <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="1287.0968" y1="220.7419" x2="2069.8064" y2="220.7419">
+                <stop  offset="0" style="stop-color:#3FA9F5"/>
+                <stop  offset="0.5" style="stop-color:#00FFFF"/>
+                <stop  offset="1" style="stop-color:#7AC943"/>
+            </linearGradient>
+            <circle class="circle2" cx="1678.5" cy="220.7" r="391.4"/>
+        </g>
+        <g class="circle3">
+            
+                <linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="1202.0957" y1="346.1664" x2="1661.9667" y2="346.1664" gradientTransform="matrix(0.6875 -0.7262 0.7262 0.6875 158.9472 1252.1025)">
+                <stop  offset="0" style="stop-color:#3FA9F5"/>
+                <stop  offset="0.5" style="stop-color:#00FFFF"/>
+                <stop  offset="1" style="stop-color:#7AC943"/>
+            </linearGradient>
+            <circle class="circle3" cx="1394.8" cy="450.1" r="229.9"/>
+        </g>
+        <g class="circle4">
+            <linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="865.2581" y1="139.1613" x2="1487.129" y2="139.1613">
+                <stop  offset="0" style="stop-color:#3FA9F5"/>
+                <stop  offset="0.5" style="stop-color:#00FFFF"/>
+                <stop  offset="1" style="stop-color:#7AC943"/>
+            </linearGradient>
+            <circle class="circle4" cx="1176.2" cy="139.2" r="310.9"/>
+        </g>
+    </svg>
+
+</main>
+	<!-- CALL TO ACTION -->
+	<section class="page-header" id="">
+		<div class="two-columns">
+			<div class="column">
+				<h1 class="color-white">"Children need models rather than critics"</h2>
+				<h4 class="color-white title-style-three">Joseph Joubert, French Moralist
+				</h4>
+
+			</div>
+
+		</div>
+	</section>
+	<!-- CALL TO ACTION -->
+	<section class="features-section">
+		<div class="two-columns">
+			<div class="column-style-three">
+					<h4 class="light title-style-two"><span class="bold">Play, Learn,</span> Create</h4>
+                    <p class="p-style-one">At KMA we believe students will play, learn, and create bright futures. We are more than just educators,
             we are compassionate, professionals
             with the experience and education necessary for a foundation your children can grow on. Where ever they
             go from here, they will be confident, ready,
             and achieve their goals. Your children will be better prepared first grade than their peers.
         </p>
-        <h2 class="content-sp-h2">Safety</h2>
-        <p>Your child's safety is our utmost priority. All our staff monitor the children 100% of the time. At our
-            center, your mind can be set at ease, as they are in the best hands available.</p>
-        <h2 class="content-sp-h2">History</h2>
-        <p>Founded in XXXX, this is just an example paragraph. I neede to be provided the content in order
+            </div>
+            <div></div>
+        </div>
+		<div class="two-columns">
+			<div></div>
+			<div class="column-style-three">
+            <h4 class="light title-style-two"><span class="bold">History </span></h4>
+            <p class="p-style-one">Founded in XXXX, this is just an example paragraph. I neede to be provided the content in order
             to fulfill this area. Right now, this ios basically just a template. I look forward to creating the
             other pages.
         </p>
-        <h2 class="content-sp-h2">Your Team</h2>
-        <p>Founded in XXXX, this is just an example paragraph. I neede to be provided the content in order
-            to fulfill this area. Right now, this ios basically just a template. I look forward to creating the
-            other pages.
-        </p>
-</div>
+			</div>
+        </div>
+        <div class="two-columns">
+			<div class="column-style-three">
+            <h4 class="light title-style-two"><span class="bold">Partnerships</span></h4>
+                    <p class="p-style-one">We are proud partners with the Gilford COunty Partnerships for Children. We are currently open to new partnerships within the community. Become a partner today!
+        </p>	
+            <ul>
+            <li><a href="#">Gilford County Partnership for Children</a></li>
+            </ul>
+            </div>
+            <div></div>
+        </div>
+        <div class="two-columns">
+			<div></div>
+			<div class="column-style-three">
+            <h4 class="light title-style-two"><span class="bold">Certfied Classroom </span>Observationist</h4>
+				<p class="p-style-one">A Certified CLASS Observer is a person who has attended a CLASS Observation Training and who has passed a CLASS Reliability Test within the past year. A Certified CLASS Observer has demonstrated a solid understanding of the CLASS tool and is qualified to code classrooms using the CLASS observation tool.</p>	
+			</div>
+        </div>
 
-
+	</section>
 <?php 
-require "../includes/footer.php"; 
+include '../includes/footer.php'; 
 ?>
+
+
+
+
+
