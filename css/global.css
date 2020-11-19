@@ -44,6 +44,9 @@
 body {
   background: var(--white);
 }
+a {
+  color: var(--blue);
+}
 p {
   font-size: var(--text-size-normal)
 }
@@ -63,7 +66,8 @@ p {
   font-weight: bold;
   color: rgba(0, 0, 0, 0.8);
   list-style-type: square;
-  text-indent: 40px;
+  list-style-position: inside;
+  text-indent: 20px;
   padding-bottom: 10px;
   font-size: var(--text-size-small);
     
@@ -207,6 +211,23 @@ main {
   margin: auto;
   width: 100%;
   padding-top: 150px;
+  padding-bottom: 150px;
+  width: var(--content-width-desktop);
+}
+.enrollment-page {
+  display: grid;
+  margin: auto;
+  width: 100%;
+  padding-top: 150px;
+  background: rgb(100,255,167);
+  background: linear-gradient(270deg, rgba(100,255,167,1) 3%, rgba(0,69,255,1) 100%);
+  padding-bottom: 150px;
+}
+.enrollment-page-interior {
+  display: grid;
+  margin: auto;
+  width: 100%;
+  padding-top: 50px;
   padding-bottom: 150px;
   width: var(--content-width-desktop);
 }
@@ -365,13 +386,11 @@ footer {
   border-radius: none;
   padding: 5px;
 }
+
 .enrollment-form-index {
   min-width: 250px;
-  max-width: 300px;
+  max-width: 400px;
   margin: 0;
-  background: rgb(176,251,255);
-  background: linear-gradient(360deg, rgb(176, 255, 212) 0%, rgba(140,198,63,1) 99%);
-  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.5);
   padding: 20px;
   margin-bottom: 50px;
   border-radius: 12px;
@@ -385,29 +404,36 @@ footer {
 .enrollment-form-index input[type='date'],
 .enrollment-form-index input[type='password'],
 .enrollment-form-index input[type='email'] {
+  min-width: 220px;
   width: 100%;
-  padding: 12px;
+  padding: 22px;
   border: none;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 10px;
   resize: vertical;
-  background: rgba(255, 255, 255, 0.8);
-  height: 25px;
+  font-size: var(--text-size-normal);
+  background: rgba(255, 255, 255, 1);
+  height: 55px;
+}
+.enroll-img {
+  width: 40%;
+  padding: 20px;
+
 }
 .submit-btn {
   width: 100%;
-  height: 35px;
+  height: 55px;
   background-color: var(--blue);
   color: white;
   outline: none;
   border: none;
+  border-radius: 4px;
+  font-size: var(--text-size-normal);
 }
 .submit-btn:hover {
-  width: 100%;
-  height: 35px;
-  background-color: var(--blue);
+  background-color: var(--green);
   outline: none;
   border: none;
 }

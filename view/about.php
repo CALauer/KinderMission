@@ -85,7 +85,7 @@ require "../includes/header.php";
                     <p class="p-style-one">We are proud partners with the Gilford COunty Partnerships for Children. We are currently open to new partnerships within the community. Become a partner today!
         </p>	
             <ul>
-            <li><a href="#">Gilford County Partnership for Children</a></li>
+            <li><a href="https://www.guilfordchildren.org/">Gilford County Partnership for Children</a></li>
             </ul>
             </div>
             <div></div>

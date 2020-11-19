@@ -248,54 +248,7 @@ require "../includes/header.php";
 				<li><a href="../view/enrollment.php" class="btn-style-one">Donate</a></li>
 				</ul>
 			</div>
-			<div class="column justify-right" id="index-form">
-			<form class="enrollment-form-index" action="../includes/enroll.php" method="post">
-					<h4 class="white">Enrollment Request</h4>
-			<?php 
-				if (isset($_GET['error'])) {
-						if ($_GET['error'] == "emptyFields") {
-							echo '<p class="helper">Please fill in all fields</p>';
-						}
-						else if ($_GET['error'] == "invalidEmail"){
-							echo '<p class="helper">Please enter a valid email address</p>';
-						}
-						else if ($_GET['error'] == "invalidPhone"){
-							echo '<p class="helper">Please enter a valid phone number</p>';
-						}
-						else if ($_GET['error'] == "invalidFather"){
-							echo '<p class="helper">Please enter a valid fathers name</p>';
-						}
-						else if ($_GET['error'] == "invalidMother"){
-							echo '<p class="helper">Please enter a valid mothers name</p>';
-						}
-						else if ($_GET['error'] == "invalidChild"){
-							echo '<p class="helper">Please enter a valid childs name</p>';
-						}
-					else if ($_GET['error'] == "Success"){
-						echo '<p class="helper_suc">You have successfully sent an enrollment request</p>';
-						}
-					}
-			?>
-				<label>Child's Parent/Legal Guardian</label>
-				<input type="text" placeholder="Guardian's Name" name="guardian">
-				<label>Child's Name</label>
-				<input type="text" placeholder="Child's Name" name="child">
-				<label>Email</label>
-				<input type="text" placeholder="Email" name="email">
-				<label>Phone</label>
-				<input type="tel" placeholder="Phone" name="phone">
-				<label>List Allergies</label>
-				<input type="text" name="allergies" value="No Allergies" value="No Allergies">
-				<label for="">Potential Start Date</label>
-				<input type="date" placeholder="Potential Start Date" name="startDate">
-				<label>Is financial assistance needed?</label> <br /><br />
-				<input type="checkbox" value="Yes" name="financial">
-				<label>Yes</label>
-				<input type="checkbox" value="No" name="financial">
-				<label>No</label> <br /> <br />
-				<input type="submit" class="submit-btn" value="Submit Request">
-				</form>
-			</div>
+
 		</div>
 	</section>
 	<section class="features-section ">
@@ -373,7 +326,7 @@ require "../includes/header.php";
 			<div class="column-style-three">
 				
 				<h4 class="title-style-two">Scholarship <span class="bold">Opportunities</span> </h4>
-				<p class="p-style-one"><span class="blue">KinderMission Foundation</span> works in conjunction with 
+				<p class="p-style-one"><a href="https://www.kindermissionfoundation.org/">KinderMission Foundation</a> works in conjunction with 
 					KinderMission Academy. KinderMission Foundation is a non-profit organization, 
 					whose mission is to foster a safe and empowering environment for children and 
 					their families to excel through quality childcare. </p> 
@@ -388,7 +341,7 @@ require "../includes/header.php";
 				<p class="p-style-one">We hold events for certain holidays 
 					as well as other occasions. 
 				</p> 
-				<p class="p-style-one">View Events</p>
+				<a href="../view/events">View Events</a>
 			</div>
 		</div>
 		<div class="two-columns">
@@ -403,7 +356,7 @@ require "../includes/header.php";
 							<li class="list-style-one">Team Leaders</li>
 							<li class="list-style-one">Internships</li>
 						</ul> 
-						<p class="p-style-one">View Openings</p>
+						<a href="#">View Openings</a>
 			</div>
 		</div>
 	</section>
