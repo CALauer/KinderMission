@@ -1,6 +1,9 @@
 # KinderMission
 Website overhaul
 
+## Status
+This project has been haulted. CEO stopped responding to texts. 
+
 ## Past Updates
 * Site Redesign
 * Admin Login Implementation
