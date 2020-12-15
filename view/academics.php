@@ -49,9 +49,7 @@ require "../includes/header.php";
 				<h1 class="color-white">"Education is not the filling of a pail, but the lighting of a fire."</h2>
 				<h4 class="color-white title-style-three">William Butler Yeats
 				</h4>
-
 			</div>
-
 		</div>
 	</section>
 	<!-- CALL TO ACTION -->
@@ -65,10 +63,10 @@ require "../includes/header.php";
 					</p>					 
 
             </div>
-            <div></div>
+            <div>ILLUSTRATION HERE</div>
         </div>
 		<div class="two-columns">
-			<div></div>
+			<div>ILLUSTRATION HERE</div>
 			<div class="column-style-three">
             <h4 class="light title-style-two"><span class="bold">Manipulatives </span></h4>
 				<p class="p-style-one">The manipulative center allows children to strengthen fine motor skills through manipulating activities
@@ -83,10 +81,10 @@ require "../includes/header.php";
 					<p class="p-style-one">Encourages children to engage in cooperative play while creating and building
             structures. Children will also get to explore different musical instruments and learn the fundmentals of music.</p>	
             </div>
-            <div></div>
+            <div>ILLUSTRATION HERE</div>
         </div>
         <div class="two-columns">
-			<div></div>
+			<div>ILLUSTRATION HERE</div>
 			<div class="column-style-three">
             <h4 class="light title-style-two"><span class="bold">Creative </span>Art</h4>
 				<p class="p-style-one">The art center gives children the freedom of expression. Through many different materials such as
@@ -104,10 +102,10 @@ require "../includes/header.php";
             name writing.
 					</p>	
             </div>
-            <div></div>
+            <div>ILLUSTRATION HERE</div>
         </div>
         <div class="two-columns">
-			<div></div>
+			<div>ILLUSTRATION HERE</div>
 			<div class="column-style-three">
             <h4 class="light title-style-two"><span class="bold">Drama </span>Play</h4>
 				<p class="p-style-one">The dramatic play inspires children to explore many different roles, situations, and tools that encourage

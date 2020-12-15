@@ -30,7 +30,8 @@ session_start();
             <ul class="mobile-logo">
             </ul>
               <ul class="nav-ul">
-              <li><a href="../view/index" class="nav-links"nav-links">Home</a></li>
+              <li><a href="../../../view/index.html" class="nav-links">Back to Portfolio</a></li>
+              <li><a href="../view/index" class="nav-links">Home</a></li>
               <li><a href="../view/about"  class="show-menu nav-links">About Us</a>
                           <ul class="menu-hidden">
                           <li><a href="../view/about" class="nav-links">Our History</a></li>
@@ -55,6 +56,7 @@ session_start();
             </div>
             <div class="mobile-drop">
             <ul>
+            <li><a href="../../../view/index.html" class="nav-links">Back to Portfolio</a></li>
             <li><a href="../view/index">Home</a></li>
             <li><a href="../view/enrollment">Enroll Now</a></li>
             <li><a href="../view/about">About Us</a></li>
@@ -77,6 +79,7 @@ session_start();
               <ul class="mobile-logo">
               </ul>
                 <ul class="nav-ul">
+                <li><a href="../../../view/index.html" class="nav-links">Back to Portfolio</a></li>
                 <li><a href="../view/index" class="nav-links"nav-links">Home</a></li>
                 <li><a href="../view/about"  class="show-menu nav-links">About Us</a>
                             <ul class="menu-hidden">
@@ -102,6 +105,7 @@ session_start();
               </div>
               <div class="mobile-drop">
               <ul>
+              <li><a href="../../../view/index.html">Back to Portfolio</a></li>
               <li><a href="../view/index">Home</a></li>
               <li><a href="../view/enrollment">Enroll Now</a></li>
               <li><a href="../view/about">About Us</a></li>

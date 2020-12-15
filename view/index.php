@@ -237,11 +237,11 @@ require "../includes/header.php";
 	</main>
 	<!-- CALL TO ACTION -->
 	<section class="call-to-action" id="call-to-action">
-		<div class="two-columns">
+		<div class="one-columns">
 			<div class="column">
-				<h1 class="color-white">Bright futures start here</h2>
-				<h4 class="color-white title-style-three">Our childcare center will provide your child 
-					with tools neccessary to be succesful.
+				<h1 class="color-white">Bright Futures Start Here</h2>
+				<h4 class="color-white title-style-three">The childcare facility you have been looking for is right here. Welcome to KinderMission Academy. Our childcare center will provide your child 
+					with the BEST tools available in order to be successful.
 				</h4>
 				<ul class="inline-unordered-list">
 				<li class="inline-list"><a href="../view/enrollment.php" class="btn-style-one">Enroll Now</a></li>
@@ -251,7 +251,25 @@ require "../includes/header.php";
 
 		</div>
 	</section>
-	<section class="features-section ">
+	<!-- <section class="features-section">
+		<div class="one-columns">
+			<h2>This is the childcare center you've been looking for.</h2>
+			</h3>
+		</div>
+		<div class="one-columns">
+			<div>
+			<h2>A great childcare center keeps your child safe, healthy, and educated</h3>
+			</div>
+		<div>
+		<div class="one-columns">
+			<div>
+			<h3>And guess what?</h3>
+
+			<h4> Your children outperform our competitiors on every level</h4>
+			</div>
+		<div>
+	</section> -->
+	<section class="features-section">
 		<div class="two-columns">
 			<div class="column">
 				<img src="../images/asset_3.svg" alt="" class="illustration">
@@ -297,7 +315,7 @@ require "../includes/header.php";
 		</div>
 		<div class="two-columns">
 			<div class="column">
-				<img src="../images/kma_academic_man.svg" alt="" class="illustration">
+				<img src="../images/enhanced-academics.svg" alt="" class="illustration">
 			</div>
 			<div class="align-self-center-column">
 				<div>

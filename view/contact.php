@@ -54,24 +54,54 @@ require "../includes/header.php";
 			</div>
 
 		</div>
-	</section>
-	<!-- CALL TO ACTION -->
-	<section class="features-section">
-        <h2> Contact Information</h2>
-		<div class="two-columns">
-			<div class="column-style-three">
-					<h4 class="light title-style-two"><span class="bold">Our</span> Adress</h4>
-                    <p class="p-style-one">KinderMission Foundation 4065 Premier Drive <br /> High Point, NC 27265</p>
-                    <h4 class="light title-style-two"><span class="bold">Call</span> Us</h4>
-                    <p class="p-style-one">(336)-886-0121</p>
-                    <h4 class="light title-style-two"><span class="bold">Email</span> Us</h4>
-                    <p class="p-style-one"> kindermissionacademy@gmail.com</p>
-                <p> Please contact us with any questions, comments, suggestions or concerns. We want to be the best, so we need to hear from you.</p>
-
+    </section>
+    <section class="contact-section" id="contact">
+        <div class="two-columns">
+            <div>
+                <form class="contact-form" action="../includes/enroll.php" method="post">
+                    <?php 
+                        if (isset($_GET['error'])) {
+                                if ($_GET['error'] == "emptyFields") {
+                                    echo '<p class="helper">Please fill in all fields</p>';
+                                }
+                                else if ($_GET['error'] == "invalidEmail"){
+                                    echo '<p class="helper">Please enter a valid email address</p>';
+                                }
+                                else if ($_GET['error'] == "invalidPhone"){
+                                    echo '<p class="helper">Please enter a valid phone number</p>';
+                                }
+                                else if ($_GET['error'] == "invalidFather"){
+                                    echo '<p class="helper">Please enter a valid fathers name</p>';
+                                }
+                                else if ($_GET['error'] == "invalidMother"){
+                                    echo '<p class="helper">Please enter a valid mothers name</p>';
+                                }
+                                else if ($_GET['error'] == "invalidChild"){
+                                    echo '<p class="helper">Please enter a valid childs name</p>';
+                                }
+                            else if ($_GET['error'] == "Success"){
+                                echo '<p class="helper_suc">You have successfully sent an enrollment request</p>';
+                                }
+                            }
+                    ?>
+				<input type="text" placeholder="Your Name" name="guardian">
+				<input type="text" placeholder="Your Email" name="child">
+				<textarea placeholder="What can we help you with?" class="text-area"></textarea>
+                <button type="button" class="submit-btn">Send</button>
+				</form>
             </div>
-            <div></div>
+            <div>
+                <h3>Contact Details</h3>
+                <h4 class="light title-style-two"><span class="bold">Our</span> Adress</h4>
+                <p class="p-style-one">KinderMission Foundation 4065 Premier Drive <br /> High Point, NC 27265</p>
+                <h4 class="light title-style-two"><span class="bold">Call</span> Us</h4>
+                <p class="p-style-one">(336)-886-0121</p>
+                <h4 class="light title-style-two"><span class="bold">Email</span> Us</h4>
+                <p class="p-style-one"> kindermissionacademy@gmail.com</p>
+            <p> Please contact us with any questions, comments, suggestions or concerns. We want to be the best, so we need to hear from you.</p>
         </div>
-	</section>
+    </section>
+
 <?php 
 include '../includes/footer.php'; 
 ?>
